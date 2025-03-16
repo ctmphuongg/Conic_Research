@@ -28,7 +28,6 @@ def gen_table(n):
   R = IntegerModRing(n)
   table = [[0] * (n**2) for _ in range(n**2)]
   
-  
   for i in range(n):
     for j in range(n):
       for x in range(n):

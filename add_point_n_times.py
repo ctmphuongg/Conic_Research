@@ -2,7 +2,7 @@ import sage
 import math
 from functools import lru_cache
 
-def add_point(r, s, t, u, delta, R):
+def add_point_4(r, s, t, u, delta, R):
   r, s, t, u, delta = R(r), R(s), R(t), R(u), R(delta) # R(2) inverse and multiply 
   two = R(2)
   try:
@@ -18,6 +18,16 @@ def add_point(r, s, t, u, delta, R):
             
   except (ZeroDivisionError, TypeError):
       return None
+    
+def add_point(r, s, t, u, d, R):
+  r, s, t, u, d = R(r), R(s), R(t), R(u), R(d) # R(2) inverse and multiply 
+    
+  # Calculate the point coordinates
+  x = (r*t + s*u*d)
+  y = (r*u + s*t)
+    
+  return (x, y)
+            
 
 def self_add_optimized(n,r,s, delta, R):
   first_two_power = math.floor(math.log2(n))
@@ -49,7 +59,10 @@ def self_add_bruteforce(n, r, s, delta, R):
 self_add_two_power_new.cache_clear()
 # print(self_add(5,2,0,-3,IntegerRing()) == self_add_bruteforce(5,2,0,-3,IntegerRing())) # (2,0)
 # print(self_add(100,0,14,12,IntegerModRing(31)) == self_add_bruteforce(100,0,14,12,IntegerModRing(31))) # (2,0)
-# print(self_add(5,1,1,-3,IntegerRing())) # (1,-1)
+# print(self_add_optimized(6,7,43,2,IntegerModRing(150)))
+# print(math.gcd(0, 50), math.gcd(20, 50))
+# print(self_add_optimized(18,3,2,2,IntegerModRing(150)))
+# print(math.gcd(0, 50), math.gcd(30, 50))
 # Test
 # test_ans = (1,1)
   
