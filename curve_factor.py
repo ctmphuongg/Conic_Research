@@ -40,7 +40,7 @@ def find_factor(N, x, y, delta):
     for p in range(2, B+1):
         if is_prime(p):
             power = math.floor(math.log(B, p))
-            M *= power
+            M *= p**power
 
     x1, y1 = self_add_optimized(M, x, y, delta, R)
     # print(x1, y1)
