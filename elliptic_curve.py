@@ -2,7 +2,7 @@ from sage.all import EllipticCurve, GF, Integers, ZZ, randint, gcd, factorial, p
 import random
 import math
 
-def ecm_factorization(N, method="fact", max_attempts = 100000, B=None):
+def ecm_factorization(N, method="fact", max_attempts = 100000):
     """
     Elliptic Curve Method (ECM) for factorization
     
@@ -10,7 +10,6 @@ def ecm_factorization(N, method="fact", max_attempts = 100000, B=None):
         N: Number to factorize
         method: "fact" for factorial method or "p-1" for prime powers method
         max_attempts: Maximum number of attempts to find a factor
-        B: Bound for prime powers (if None, will be randomly generated)
     """
     if N <= 1:
         return N, 0, 0
@@ -21,14 +20,10 @@ def ecm_factorization(N, method="fact", max_attempts = 100000, B=None):
     total_additions = 0
     
     for attempt in range(1, max_attempts + 1):
-        # Generate random curve parameters
+        B = randint(1, N)
         x0 = randint(0, N-1)
         y0 = randint(0, N-1)
         a = randint(0, N-1)
-        
-        # Use provided B or generate a random one
-        if B is None:
-            B = randint(1, N)
         
         b = (R(y0)**2 - R(x0)**3 - R(a) * R(x0)) % N
         

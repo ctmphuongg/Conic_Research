@@ -36,7 +36,7 @@ def run_comparison(num_tests=10, min_size=1000, max_size=10000):
         print(f"\nTest {i+1}/{num_tests}")
         print(f"Testing number: {N}")
         
-        # Generate a random bound B for this test
+        # Generate a single random bound B for all methods
         B = random.randint(1, N)
         print(f"Using bound B = {B}")
         

@@ -22,12 +22,14 @@ def mod_pow(base, exponent, modulus):
         base = (base * base) % modulus
     return result
 
-def p1_factorize_original(N, max_attempts=10000, B=None):
+def p1_factorize_original(N, max_attempts=10000):
     if N <= 1:
         return N, 0, 0
     if N % 2 == 0:
         return 2, 0, 0
         
+    min_B = 1
+    max_B = math.ceil(math.sqrt(N))
     attempt = 0
     total_additions = 0
     
