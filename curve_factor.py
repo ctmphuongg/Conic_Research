@@ -32,7 +32,6 @@ run_example(N=101, trials=3)
 '''
 
 def find_factor(N, x, y, delta):
-    # print(x, y, delta)
     mult = 1
     R = IntegerModRing(N)
     B = math.floor(N**(mult/6))
@@ -43,7 +42,6 @@ def find_factor(N, x, y, delta):
             M *= p**power
 
     x1, y1 = self_add_optimized(M, x, y, delta, R)
-    # print(x1, y1)
     Z = IntegerRing()
     x1 = Z(x1)
     y1 = Z(y1)
@@ -53,7 +51,6 @@ def find_factor(N, x, y, delta):
     sec_div = gcd(y1, N)
     if 1 < sec_div < N:
         return sec_div
-        # mult += 1
 
     return N 
 
