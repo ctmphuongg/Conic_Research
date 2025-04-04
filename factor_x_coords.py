@@ -18,12 +18,6 @@ def recur_add_x(x, times):
     x_P_Q = recur_add_x(x, (times - P) - P)
     return 2*x_P*x_Q - x_P_Q
 
-# R = IntegerModRing(25)
-# print(recur_add_x(R(3), 10))
-# print(self_add_optimized(10, R(3), R(2), 2, R))
-# print(recur_add_x(R(3), 11))
-# print(self_add_optimized(11, R(3), R(2), 2, R))
-
 def factorization(N, max_attempts=5):
     N = Integer(N)
     total_additions = 0
@@ -48,27 +42,29 @@ def factorization(N, max_attempts=5):
 
     return N, max_attempts, total_additions
   
-def conic_factorization(N, method="fact", max_attempts=10000, B=None):
+def conic_factorization(N, method="fact", max_attempts=10000):
     if N % 2 == 0:
         return 2, 1, 0
     
     total_additions = 0
-    for attempt in range(1, max_attempts):
+    for attempt in range(1, max_attempts+1):
+        # Use different seed for each attempt
+        random.seed(attempt)
+        
         x = random.randint(1, N-1)
         R = IntegerModRing(N)
         K = R(x)
         
-        # Use provided B or generate a random one
-        if B is None:
-            B = random.randint(1, N)
+        B = random.randint(1, math.ceil(N**(1/2)))
+        print("Attempt ", attempt, " B=", B, " x=", x)
         
         if method == "p-1":
             # For p-1 method: multiply by prime powers up to B
             for p in primes(2, B+1):
-                power = math.floor(math.log(B, p))
+                power = math.floor(math.log(B, p)) #power = log_p(B)
                 for _ in range(power):
                     recur_add_x.cache_clear()
-                    K = recur_add_x(K, p)
+                    K = recur_add_x(K, p) # K = pK mod N; M = product of p^power
                     total_additions += 1
                     g = math.gcd(K-1, N)
                     if 1 < g < N:
@@ -93,9 +89,9 @@ def conic_factorization(N, method="fact", max_attempts=10000, B=None):
 Factor of 25117 * 26227 (25117, 1)
 Factor of 180181 * 181081 (181081, 1)
 '''
-print("Factor of 20167919", conic_factorization(20167919))
-print("Factor of 180181*181081", conic_factorization(32627355661))
-# print("Factor of 3326489*3326489", conic_factorization(11065529067121))
+# print("Factor of 20167919", conic_factorization(20167919))
+# print("Factor of 180181*181081", conic_factorization(32627355661))
+# print("Factor of 3326489*3326489", conic_factorization(11065529067121, max_attempts=5))
 
 
 

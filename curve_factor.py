@@ -74,6 +74,7 @@ def factorization(N, method="fact"):
         x = int(((3 + 2*math.sqrt(2))**i + (3 + 2*math.sqrt(2))**i) / 2) % N
         y = int(((3 + 2*math.sqrt(2))**i + (3 + 2*math.sqrt(2))**i) / (2*math.sqrt(2))) % N
         
+        print("Attempt", attempt, "x=", x)
         if method == "p-1":
             factor = find_factor(N, x, y, delta)
             if 1 < factor < N:
@@ -100,12 +101,12 @@ def format_result(N, result):
         return f"Found factor {factor} of {N} after {attempts} {'attempt' if attempts == 1 else 'attempts'}"
   
 
-print("Factor of 20", factorization(20, "p-1"))
-print("Factor of 120", factorization(120, "fact"))
-print("Factor of 55", factorization(55, "p-1"))
-print("Factor of 87", factorization(87, "fact"))
-print("Factor of 10509", factorization(10509, "p-1"))
-print("Factor of 249000", factorization(249000, "fact"))
-
+# print("Factor of 20", factorization(20, "p-1"))
+# print("Factor of 120", factorization(120, "fact"))
+# print("Factor of 55", factorization(55, "p-1"))
+# print("Factor of 87", factorization(87, "fact"))
+# print("Factor of 10509", factorization(10509, "p-1"))
+# print("Factor of 249000", factorization(249000, "fact"))
+print("Factor of 3326489*3326489", factorization(11065529067121, "p-1"))
   
   

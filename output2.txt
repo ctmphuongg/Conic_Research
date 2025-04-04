@@ -1,0 +1,627 @@
+Factor of 20167919 (5351, 1, 107)
+Factor of 180181*181081 (180181, 1, 13)
+Factor of 20167919 (5351, 1, 191)
+Factor of 180181*181081 (181081, 1, 149)
+
+Test 1/100
+Testing number: 55571459
+Conic p-1 found factor: 7949 in 1 attempts and 53 additions
+Original p-1 found factor: 6991 in 2 attempts and 1148 additions
+ECM p-1 found factor: 7949 in 1 attempts and 61 additions
+
+Test 2/100
+Testing number: 35511263
+Conic p-1 found factor: 9397 in 1 attempts and 72 additions
+Original p-1 found factor: 9397 in 2 attempts and 605 additions
+ECM p-1 found factor: 9397 in 1 attempts and 63 additions
+
+Test 3/100
+Testing number: 83439481
+Conic p-1 found factor: 9767 in 1 attempts and 38 additions
+Original p-1 found factor: 9767 in 2 attempts and 1076 additions
+ECM p-1 found factor: 8543 in 1 attempts and 64 additions
+
+Test 4/100
+Testing number: 8928901
+Conic p-1 found factor: 2687 in 1 attempts and 56 additions
+Original p-1 found factor: 2687 in 4 attempts and 400 additions
+ECM p-1 found factor: 2687 in 1 attempts and 24 additions
+
+Test 5/100
+Testing number: 1881409
+Conic p-1 found factor: 1279 in 1 attempts and 8 additions
+Original p-1 found factor: 1471 in 6 attempts and 294 additions
+ECM p-1 found factor: 1471 in 1 attempts and 28 additions
+
+Test 6/100
+Testing number: 11683649
+Conic p-1 found factor: 4957 in 1 attempts and 51 additions
+Original p-1 found factor: 2357 in 5 attempts and 421 additions
+ECM p-1 found factor: 4957 in 1 attempts and 27 additions
+
+Test 7/100
+Testing number: 56956741
+Conic p-1 found factor: 8087 in 1 attempts and 109 additions
+Original p-1 found factor: 8087 in 4 attempts and 1278 additions
+ECM p-1 found factor: 8087 in 1 attempts and 49 additions
+
+Test 8/100
+Testing number: 19290197
+Conic p-1 found factor: 6091 in 1 attempts and 30 additions
+Original p-1 found factor: 6091 in 2 attempts and 605 additions
+ECM p-1 found factor: 6091 in 1 attempts and 59 additions
+
+Test 9/100
+Testing number: 22967699
+Conic p-1 found factor: 5431 in 1 attempts and 66 additions
+Original p-1 found factor: 4229 in 4 attempts and 684 additions
+ECM p-1 found factor: 4229 in 1 attempts and 75 additions
+
+Test 10/100
+Testing number: 24418487
+Conic p-1 found factor: 4787 in 1 attempts and 37 additions
+Original p-1 found factor: 5101 in 2 attempts and 605 additions
+ECM p-1 found factor: 4787 in 1 attempts and 56 additions
+
+Test 11/100
+Testing number: 53937743
+Conic p-1 found factor: 8231 in 1 attempts and 27 additions
+Original p-1 found factor: 6553 in 3 attempts and 1188 additions
+ECM p-1 found factor: 8231 in 1 attempts and 60 additions
+
+Test 12/100
+Testing number: 81598399
+Conic p-1 found factor: 8689 in 1 attempts and 68 additions
+Original p-1 found factor: 8689 in 8 attempts and 1499 additions
+ECM p-1 found factor: 8689 in 1 attempts and 68 additions
+
+Test 13/100
+Testing number: 58226009
+Conic p-1 found factor: 8929 in 1 attempts and 43 additions
+Original p-1 found factor: 8929 in 3 attempts and 1188 additions
+ECM p-1 found factor: 6521 in 1 attempts and 25 additions
+
+Test 14/100
+Testing number: 35655391
+Conic p-1 found factor: 8627 in 1 attempts and 90 additions
+Original p-1 found factor: 8627 in 2 attempts and 605 additions
+ECM p-1 found factor: 4133 in 1 attempts and 83 additions
+
+Test 15/100
+Testing number: 4891421
+Conic p-1 found factor: 2879 in 1 attempts and 9 additions
+Original p-1 found factor: 1699 in 3 attempts and 446 additions
+ECM p-1 found factor: 1699 in 1 attempts and 39 additions
+
+Test 16/100
+Testing number: 39200687
+Conic p-1 found factor: 6709 in 1 attempts and 49 additions
+Original p-1 found factor: 6709 in 3 attempts and 629 additions
+ECM p-1 found factor: 5843 in 1 attempts and 88 additions
+
+Test 17/100
+Testing number: 22405189
+Conic p-1 found factor: 2957 in 1 attempts and 41 additions
+Original p-1 found factor: 2957 in 3 attempts and 765 additions
+ECM p-1 found factor: 2957 in 1 attempts and 31 additions
+
+Test 18/100
+Testing number: 20518781
+Conic p-1 found factor: 3631 in 1 attempts and 22 additions
+Original p-1 found factor: 5651 in 10 attempts and 944 additions
+ECM p-1 found factor: 5651 in 1 attempts and 55 additions
+
+Test 19/100
+Testing number: 41206747
+Conic p-1 found factor: 5407 in 1 attempts and 53 additions
+Original p-1 found factor: 5407 in 3 attempts and 629 additions
+ECM p-1 found factor: 5407 in 1 attempts and 36 additions
+
+Test 20/100
+Testing number: 11868739
+Conic p-1 found factor: 1523 in 1 attempts and 65 additions
+Original p-1 found factor: 7793 in 5 attempts and 738 additions
+ECM p-1 found factor: 1523 in 1 attempts and 41 additions
+
+Test 21/100
+Testing number: 47102233
+Conic p-1 found factor: 9001 in 1 attempts and 158 additions
+Original p-1 found factor: 5233 in 10 attempts and 944 additions
+ECM p-1 found factor: 9001 in 1 attempts and 52 additions
+
+Test 22/100
+Testing number: 58492183
+Conic p-1 found factor: 9283 in 1 attempts and 35 additions
+Original p-1 found factor: 9283 in 8 attempts and 1253 additions
+ECM p-1 found factor: 6301 in 1 attempts and 22 additions
+
+Test 23/100
+Testing number: 21679289
+Conic p-1 found factor: 7129 in 1 attempts and 13 additions
+Original p-1 found factor: 3041 in 3 attempts and 629 additions
+ECM p-1 found factor: 3041 in 1 attempts and 40 additions
+
+Test 24/100
+Testing number: 65701591
+Conic p-1 found factor: 8887 in 1 attempts and 67 additions
+Original p-1 found factor: 7393 in 2 attempts and 1148 additions
+ECM p-1 found factor: 8887 in 1 attempts and 15 additions
+
+Test 25/100
+Testing number: 23624347
+Conic p-1 found factor: 2699 in 1 attempts and 61 additions
+Original p-1 found factor: 2699 in 4 attempts and 684 additions
+ECM p-1 found factor: 2699 in 1 attempts and 78 additions
+
+Test 26/100
+Testing number: 66454243
+Conic p-1 found factor: 7151 in 1 attempts and 32 additions
+Original p-1 found factor: 7151 in 4 attempts and 1205 additions
+ECM p-1 found factor: 7151 in 1 attempts and 28 additions
+
+Test 27/100
+Testing number: 68673719
+Conic p-1 found factor: 6967 in 1 attempts and 40 additions
+Original p-1 found factor: 6967 in 5 attempts and 1159 additions
+ECM p-1 found factor: 9857 in 1 attempts and 47 additions
+
+Test 28/100
+Testing number: 24271591
+Conic p-1 found factor: 2503 in 1 attempts and 75 additions
+Original p-1 found factor: 9697 in 8 attempts and 867 additions
+ECM p-1 found factor: 9697 in 1 attempts and 29 additions
+
+Test 29/100
+Testing number: 53015779
+Conic p-1 found factor: 6803 in 1 attempts and 82 additions
+Original p-1 found factor: 6803 in 4 attempts and 1278 additions
+ECM p-1 found factor: 6803 in 1 attempts and 118 additions
+
+Test 30/100
+Testing number: 84699073
+Conic p-1 found factor: 9721 in 1 attempts and 17 additions
+Original p-1 found factor: 9721 in 3 attempts and 1116 additions
+ECM p-1 found factor: 8713 in 1 attempts and 24 additions
+
+Test 31/100
+Testing number: 24507589
+Conic p-1 found factor: 2663 in 1 attempts and 31 additions
+Original p-1 found factor: 9203 in 2 attempts and 605 additions
+ECM p-1 found factor: 9203 in 1 attempts and 0 additions
+
+Test 32/100
+Testing number: 34389541
+Conic p-1 found factor: 8861 in 1 attempts and 88 additions
+Original p-1 found factor: 3881 in 4 attempts and 684 additions
+ECM p-1 found factor: 3881 in 1 attempts and 45 additions
+
+Test 33/100
+Testing number: 23426261
+Conic p-1 found factor: 4339 in 1 attempts and 43 additions
+Original p-1 found factor: 4339 in 2 attempts and 605 additions
+ECM p-1 found factor: 5399 in 1 attempts and 30 additions
+
+Test 34/100
+Testing number: 5597519
+Conic p-1 found factor: 1163 in 1 attempts and 59 additions
+Original p-1 found factor: 1163 in 2 attempts and 350 additions
+ECM p-1 found factor: 1163 in 1 attempts and 32 additions
+
+Test 35/100
+Testing number: 14387189
+Conic p-1 found factor: 2339 in 1 attempts and 29 additions
+Original p-1 found factor: 6151 in 3 attempts and 666 additions
+ECM p-1 found factor: 2339 in 1 attempts and 88 additions
+
+Test 36/100
+Testing number: 19721077
+Conic p-1 found factor: 4861 in 1 attempts and 13 additions
+Original p-1 found factor: 4057 in 4 attempts and 684 additions
+ECM p-1 found factor: 4861 in 1 attempts and 41 additions
+
+Test 37/100
+Testing number: 54013331
+Conic p-1 found factor: 8807 in 1 attempts and 25 additions
+Original p-1 found factor: 8807 in 5 attempts and 1231 additions
+ECM p-1 found factor: 8807 in 1 attempts and 64 additions
+
+Test 38/100
+Testing number: 8289893
+Conic p-1 found factor: 4639 in 1 attempts and 38 additions
+Original p-1 found factor: 1787 in 2 attempts and 350 additions
+ECM p-1 found factor: 1787 in 1 attempts and 37 additions
+
+Test 39/100
+Testing number: 51521341
+Conic p-1 found factor: 6143 in 1 attempts and 64 additions
+Original p-1 found factor: 6143 in 3 attempts and 1188 additions
+ECM p-1 found factor: 6143 in 1 attempts and 25 additions
+
+Test 40/100
+Testing number: 9475013
+Conic p-1 found factor: 1453 in 1 attempts and 163 additions
+Original p-1 found factor: 1453 in 5 attempts and 449 additions
+ECM p-1 found factor: 1453 in 1 attempts and 20 additions
+
+Test 41/100
+Testing number: 66046973
+Conic p-1 found factor: 8093 in 1 attempts and 36 additions
+Original p-1 found factor: 8161 in 3 attempts and 1188 additions
+ECM p-1 found factor: 8161 in 1 attempts and 54 additions
+
+Test 42/100
+Testing number: 12019967
+Conic p-1 found factor: 8353 in 1 attempts and 5 additions
+Original p-1 found factor: 8353 in 2 attempts and 642 additions
+ECM p-1 found factor: 1439 in 1 attempts and 34 additions
+
+Test 43/100
+Testing number: 28657477
+Conic p-1 found factor: 4003 in 1 attempts and 41 additions
+Original p-1 found factor: 4003 in 2 attempts and 605 additions
+ECM p-1 found factor: 7159 in 1 attempts and 21 additions
+
+Test 44/100
+Testing number: 6681593
+Conic p-1 found factor: 3739 in 1 attempts and 58 additions
+Original p-1 found factor: 1787 in 6 attempts and 454 additions
+ECM p-1 found factor: 3739 in 1 attempts and 37 additions
+
+Test 45/100
+Testing number: 4904411
+Conic p-1 found factor: 1151 in 1 attempts and 25 additions
+Original p-1 found factor: 1151 in 3 attempts and 366 additions
+ECM p-1 found factor: 1151 in 1 attempts and 51 additions
+
+Test 46/100
+Testing number: 17856697
+Conic p-1 found factor: 2213 in 1 attempts and 42 additions
+Original p-1 found factor: 2213 in 2 attempts and 605 additions
+ECM p-1 found factor: 2213 in 1 attempts and 36 additions
+
+Test 47/100
+Testing number: 8868749
+Conic p-1 found factor: 4397 in 1 attempts and 71 additions
+Original p-1 found factor: 2017 in 3 attempts and 366 additions
+ECM p-1 found factor: 4397 in 1 attempts and 43 additions
+
+Test 48/100
+Testing number: 32674507
+Conic p-1 found factor: 7489 in 1 attempts and 69 additions
+Original p-1 found factor: 7489 in 2 attempts and 605 additions
+ECM p-1 found factor: 4363 in 1 attempts and 54 additions
+
+Test 49/100
+Testing number: 3711133
+Conic p-1 found factor: 3191 in 1 attempts and 34 additions
+Original p-1 found factor: 3191 in 3 attempts and 388 additions
+ECM p-1 found factor: 1163 in 1 attempts and 69 additions
+
+Test 50/100
+Testing number: 45037781
+Conic p-1 found factor: 5347 in 1 attempts and 29 additions
+Original p-1 found factor: 5347 in 1 attempts and 483 additions
+ECM p-1 found factor: 5347 in 1 attempts and 60 additions
+
+Test 51/100
+Testing number: 21877123
+Conic p-1 found factor: 4759 in 1 attempts and 35 additions
+Original p-1 found factor: 4759 in 4 attempts and 684 additions
+ECM p-1 found factor: 4759 in 1 attempts and 24 additions
+
+Test 52/100
+Testing number: 10959779
+Conic p-1 found factor: 5119 in 1 attempts and 19 additions
+Original p-1 found factor: 2141 in 2 attempts and 350 additions
+ECM p-1 found factor: 2141 in 1 attempts and 91 additions
+
+Test 53/100
+Testing number: 37944271
+Conic p-1 found factor: 5939 in 1 attempts and 29 additions
+Original p-1 found factor: 6389 in 4 attempts and 1067 additions
+ECM p-1 found factor: 6389 in 1 attempts and 18 additions
+
+Test 54/100
+Testing number: 58441673
+Conic p-1 found factor: 8009 in 3 attempts and 1644 additions
+Original p-1 found factor: 8009 in 4 attempts and 1205 additions
+ECM p-1 found factor: 8009 in 1 attempts and 31 additions
+
+Test 55/100
+Testing number: 7496023
+Conic p-1 found factor: 5231 in 1 attempts and 63 additions
+Original p-1 found factor: 1433 in 2 attempts and 350 additions
+ECM p-1 found factor: 1433 in 1 attempts and 14 additions
+
+Test 56/100
+Testing number: 33846559
+Conic p-1 found factor: 6173 in 1 attempts and 27 additions
+Original p-1 found factor: 6173 in 4 attempts and 1067 additions
+ECM p-1 found factor: 5483 in 1 attempts and 37 additions
+
+Test 57/100
+Testing number: 4191433
+Conic p-1 found factor: 2467 in 2 attempts and 118 additions
+Original p-1 found factor: 2467 in 2 attempts and 350 additions
+ECM p-1 found factor: 1699 in 1 attempts and 75 additions
+
+Test 58/100
+Testing number: 17003743
+Conic p-1 found factor: 1877 in 1 attempts and 39 additions
+Original p-1 found factor: 1877 in 2 attempts and 605 additions
+ECM p-1 found factor: 9059 in 1 attempts and 29 additions
+
+Test 59/100
+Testing number: 80055487
+Conic p-1 found factor: 9349 in 1 attempts and 28 additions
+Original p-1 found factor: 9349 in 2 attempts and 1076 additions
+ECM p-1 found factor: 8563 in 1 attempts and 36 additions
+
+Test 60/100
+Testing number: 4316063
+Conic p-1 found factor: 1879 in 1 attempts and 31 additions
+Original p-1 found factor: 2297 in 2 attempts and 350 additions
+ECM p-1 found factor: 1879 in 1 attempts and 34 additions
+
+Test 61/100
+Testing number: 14504363
+Conic p-1 found factor: 1699 in 1 attempts and 32 additions
+Original p-1 found factor: 8537 in 4 attempts and 721 additions
+ECM p-1 found factor: 1699 in 1 attempts and 2 additions
+
+Test 62/100
+Testing number: 5996743
+Conic p-1 found factor: 1609 in 1 attempts and 53 additions
+Original p-1 found factor: 1609 in 9 attempts and 541 additions
+ECM p-1 found factor: 1609 in 1 attempts and 14 additions
+
+Test 63/100
+Testing number: 23837147
+Conic p-1 found factor: 4357 in 1 attempts and 29 additions
+Original p-1 found factor: 4357 in 4 attempts and 684 additions
+ECM p-1 found factor: 4357 in 1 attempts and 17 additions
+
+Test 64/100
+Testing number: 18192347
+Conic p-1 found factor: 2131 in 1 attempts and 33 additions
+Original p-1 found factor: 2131 in 5 attempts and 718 additions
+ECM p-1 found factor: 8537 in 1 attempts and 62 additions
+
+Test 65/100
+Testing number: 10127267
+Conic p-1 found factor: 4909 in 1 attempts and 128 additions
+Original p-1 found factor: 4909 in 4 attempts and 621 additions
+ECM p-1 found factor: 2063 in 1 attempts and 42 additions
+
+Test 66/100
+Testing number: 9592391
+Conic p-1 found factor: 1471 in 1 attempts and 36 additions
+Original p-1 found factor: 1471 in 4 attempts and 400 additions
+ECM p-1 found factor: 6521 in 1 attempts and 69 additions
+
+Test 67/100
+Testing number: 6544273
+Conic p-1 found factor: 1223 in 1 attempts and 48 additions
+Original p-1 found factor: 1223 in 4 attempts and 400 additions
+ECM p-1 found factor: 1223 in 1 attempts and 77 additions
+
+Test 68/100
+Testing number: 6268739
+Conic p-1 found factor: 1559 in 1 attempts and 44 additions
+Original p-1 found factor: 1559 in 5 attempts and 421 additions
+ECM p-1 found factor: 1559 in 1 attempts and 16 additions
+
+Test 69/100
+Testing number: 6255971
+Conic p-1 found factor: 1259 in 1 attempts and 42 additions
+Original p-1 found factor: 4969 in 3 attempts and 366 additions
+ECM p-1 found factor: 1259 in 1 attempts and 34 additions
+
+Test 70/100
+Testing number: 13652147
+Conic p-1 found factor: 1487 in 1 attempts and 40 additions
+Original p-1 found factor: 9181 in 2 attempts and 642 additions
+ECM p-1 found factor: 1487 in 1 attempts and 37 additions
+
+Test 71/100
+Testing number: 3958301
+Conic p-1 found factor: 1559 in 1 attempts and 39 additions
+Original p-1 found factor: 1559 in 5 attempts and 443 additions
+ECM p-1 found factor: 2539 in 1 attempts and 22 additions
+
+Test 72/100
+Testing number: 79762757
+Conic p-1 found factor: 8933 in 1 attempts and 34 additions
+Original p-1 found factor: 8933 in 7 attempts and 1170 additions
+ECM p-1 found factor: 8929 in 1 attempts and 96 additions
+
+Test 73/100
+Testing number: 41513063
+Conic p-1 found factor: 4643 in 1 attempts and 88 additions
+Original p-1 found factor: 8941 in 4 attempts and 684 additions
+ECM p-1 found factor: 4643 in 1 attempts and 34 additions
+
+Test 74/100
+Testing number: 15884653
+Conic p-1 found factor: 4421 in 1 attempts and 53 additions
+Original p-1 found factor: 4421 in 3 attempts and 666 additions
+ECM p-1 found factor: 3593 in 2 attempts and 142 additions
+
+Test 75/100
+Testing number: 21847811
+Conic p-1 found factor: 3613 in 1 attempts and 75 additions
+Original p-1 found factor: 3613 in 2 attempts and 605 additions
+ECM p-1 found factor: 3613 in 2 attempts and 55 additions
+
+Test 76/100
+Testing number: 32791567
+Conic p-1 found factor: 6833 in 1 attempts and 59 additions
+Original p-1 found factor: 6833 in 2 attempts and 605 additions
+ECM p-1 found factor: 6833 in 1 attempts and 28 additions
+
+Test 77/100
+Testing number: 7047517
+Conic p-1 found factor: 5417 in 1 attempts and 13 additions
+Original p-1 found factor: 1301 in 2 attempts and 350 additions
+ECM p-1 found factor: 1301 in 1 attempts and 27 additions
+
+Test 78/100
+Testing number: 8707381
+Conic p-1 found factor: 1163 in 1 attempts and 57 additions
+Original p-1 found factor: 1163 in 4 attempts and 400 additions
+ECM p-1 found factor: 1163 in 1 attempts and 19 additions
+
+Test 79/100
+Testing number: 22663103
+Conic p-1 found factor: 6221 in 1 attempts and 57 additions
+Original p-1 found factor: 6221 in 2 attempts and 605 additions
+ECM p-1 found factor: 6221 in 1 attempts and 20 additions
+
+Test 80/100
+Testing number: 16181021
+Conic p-1 found factor: 9337 in 1 attempts and 111 additions
+Original p-1 found factor: 9337 in 9 attempts and 1205 additions
+ECM p-1 found factor: 9337 in 1 attempts and 31 additions
+
+Test 81/100
+Testing number: 40169957
+Conic p-1 found factor: 5351 in 1 attempts and 69 additions
+Original p-1 found factor: 5351 in 8 attempts and 867 additions
+ECM p-1 found factor: 7507 in 1 attempts and 22 additions
+
+Test 82/100
+Testing number: 48980227
+Conic p-1 found factor: 5209 in 1 attempts and 43 additions
+Original p-1 found factor: 5209 in 2 attempts and 1148 additions
+ECM p-1 found factor: 5209 in 1 attempts and 56 additions
+
+Test 83/100
+Testing number: 54828127
+Conic p-1 found factor: 8663 in 1 attempts and 61 additions
+Original p-1 found factor: 8663 in 6 attempts and 1267 additions
+ECM p-1 found factor: 8663 in 1 attempts and 48 additions
+
+Test 84/100
+Testing number: 33709771
+Conic p-1 found factor: 7039 in 1 attempts and 39 additions
+Original p-1 found factor: 4789 in 8 attempts and 694 additions
+ECM p-1 found factor: 4789 in 1 attempts and 26 additions
+
+Test 85/100
+Testing number: 24049681
+Conic p-1 found factor: 3989 in 1 attempts and 37 additions
+Original p-1 found factor: 6029 in 2 attempts and 605 additions
+ECM p-1 found factor: 6029 in 1 attempts and 135 additions
+
+Test 86/100
+Testing number: 31401427
+Conic p-1 found factor: 7457 in 1 attempts and 71 additions
+Original p-1 found factor: 7457 in 5 attempts and 763 additions
+ECM p-1 found factor: 4211 in 1 attempts and 28 additions
+
+Test 87/100
+Testing number: 4020509
+Conic p-1 found factor: 3761 in 1 attempts and 30 additions
+Original p-1 found factor: 3761 in 6 attempts and 476 additions
+ECM p-1 found factor: 3761 in 1 attempts and 43 additions
+
+Test 88/100
+Testing number: 53391431
+Conic p-1 found factor: 7757 in 1 attempts and 124 additions
+Original p-1 found factor: 6883 in 3 attempts and 1188 additions
+ECM p-1 found factor: 6883 in 1 attempts and 159 additions
+
+Test 89/100
+Testing number: 60795941
+Conic p-1 found factor: 7211 in 1 attempts and 68 additions
+Original p-1 found factor: 7211 in 3 attempts and 1188 additions
+ECM p-1 found factor: 7211 in 1 attempts and 111 additions
+
+Test 90/100
+Testing number: 57347569
+Conic p-1 found factor: 9007 in 1 attempts and 63 additions
+Original p-1 found factor: 9007 in 3 attempts and 1188 additions
+ECM p-1 found factor: 9007 in 1 attempts and 50 additions
+
+Test 91/100
+Testing number: 10993391
+Conic p-1 found factor: 1487 in 1 attempts and 40 additions
+Original p-1 found factor: 7393 in 2 attempts and 350 additions
+ECM p-1 found factor: 7393 in 1 attempts and 27 additions
+
+Test 92/100
+Testing number: 10813169
+Conic p-1 found factor: 4679 in 1 attempts and 29 additions
+Original p-1 found factor: 2311 in 1 attempts and 276 additions
+ECM p-1 found factor: 4679 in 1 attempts and 53 additions
+
+Test 93/100
+Testing number: 4153739
+Conic p-1 found factor: 1511 in 1 attempts and 21 additions
+Original p-1 found factor: 1511 in 5 attempts and 471 additions
+ECM p-1 found factor: 1511 in 1 attempts and 27 additions
+
+Test 94/100
+Testing number: 42897709
+Conic p-1 found factor: 6763 in 1 attempts and 39 additions
+Original p-1 found factor: 6763 in 3 attempts and 629 additions
+ECM p-1 found factor: 6763 in 1 attempts and 142 additions
+
+Test 95/100
+Testing number: 9817963
+Conic p-1 found factor: 2269 in 1 attempts and 23 additions
+Original p-1 found factor: 2269 in 4 attempts and 400 additions
+ECM p-1 found factor: 2269 in 1 attempts and 20 additions
+
+Test 96/100
+Testing number: 14604157
+Conic p-1 found factor: 2711 in 1 attempts and 92 additions
+Original p-1 found factor: 2711 in 2 attempts and 642 additions
+ECM p-1 found factor: 2711 in 1 attempts and 20 additions
+
+Test 97/100
+Testing number: 53602573
+Conic p-1 found factor: 5827 in 1 attempts and 51 additions
+Original p-1 found factor: 9199 in 3 attempts and 1188 additions
+ECM p-1 found factor: 5827 in 1 attempts and 19 additions
+
+Test 98/100
+Testing number: 3945289
+Conic p-1 found factor: 1049 in 1 attempts and 21 additions
+Original p-1 found factor: 3761 in 4 attempts and 422 additions
+ECM p-1 found factor: 1049 in 1 attempts and 45 additions
+
+Test 99/100
+Testing number: 49189489
+Conic p-1 found factor: 7159 in 1 attempts and 82 additions
+Original p-1 found factor: 6871 in 2 attempts and 1148 additions
+ECM p-1 found factor: 7159 in 1 attempts and 39 additions
+
+Test 100/100
+Testing number: 45734569
+Conic p-1 found factor: 6823 in 1 attempts and 188 additions
+Original p-1 found factor: 6823 in 2 attempts and 605 additions
+ECM p-1 found factor: 6703 in 1 attempts and 24 additions
+
+=== Summary ===
+
+CONIC_P1 Method:
+Success rate: 100/100 (100.00%)
+Average attempts: 1.03
+Average additions: 68.25
+Total attempts: 103
+Total additions: 6825
+
+P1_ORIGINAL Method:
+Success rate: 100/100 (100.00%)
+Average attempts: 3.72
+Average additions: 734.10
+Total attempts: 372
+Total additions: 73410
+
+ECM_P1 Method:
+Success rate: 100/100 (100.00%)
+Average attempts: 1.02
+Average additions: 46.53
+Total attempts: 102
+Total additions: 4653

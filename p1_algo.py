@@ -22,7 +22,7 @@ def mod_pow(base, exponent, modulus):
         base = (base * base) % modulus
     return result
 
-def p1_factorize_original(N, max_attempts=10000):
+def p1_factorize_original(N, max_attempts=10000, B=None):
     if N <= 1:
         return N, 0, 0
     if N % 2 == 0:
@@ -34,6 +34,8 @@ def p1_factorize_original(N, max_attempts=10000):
     total_additions = 0
     
     while attempt < max_attempts and min_B < max_B:
+        # Use different seed for each attempt
+        # random.seed(attempt)
         B = random.randint(min_B, max_B)
         
         # Choose a coprime to N
@@ -116,6 +118,7 @@ def p1_factorize_16(N, B=None, max_attempts=10000):
     else:
         return N, 1, total_additions  # Indicating failure
 
+print("Factor of 3326489*3326489", p1_factorize_original(11065529067121, max_attempts=5))
 # print("Factor of 20:", p1_factorize_original(20))
 # print("Factor of 120:", p1_factorize_original(120))
 # print("Factor of 55:", p1_factorize_original(55))

@@ -5,6 +5,10 @@ from factor_x_coords import conic_factorization
 from p1_algo import p1_factorize_original
 from elliptic_curve import ecm_factorization
 
+'''
+Input bit size, make random things consistent in terms of bit size 
+'''
+
 def generate_test_numbers(num_tests, min_size=1000, max_size=10000):
     """Generate test numbers by multiplying two random primes"""
     test_numbers = []
@@ -36,28 +40,27 @@ def run_comparison(num_tests=10, min_size=1000, max_size=10000):
         print(f"\nTest {i+1}/{num_tests}")
         print(f"Testing number: {N}")
         
-        # Generate a single random bound B for all methods
-        B = random.randint(1, N)
-        print(f"Using bound B = {B}")
-        
-        # Test conic p-1 factorization
-        factor, attempts, additions = conic_factorization(N, method="p-1", B=B)
+        # Test conic p-1 factorization with different seeds
+        # random.seed(i)  # Set seed for this test
+        factor, attempts, additions = conic_factorization(N, method="p-1")
         results['conic_p1']['total_attempts'] += attempts
         results['conic_p1']['total_additions'] += additions
         if factor != N:
             results['conic_p1']['success'] += 1
             print(f"Conic p-1 found factor: {factor} in {attempts} attempts and {additions} additions")
         
-        # Test original p-1 factorization
-        factor, attempts, additions = p1_factorize_original(N, B=B)
+        # Test original p-1 factorization with different seeds
+        # random.seed(i)  # Reset seed for this test
+        factor, attempts, additions = p1_factorize_original(N)
         results['p1_original']['total_attempts'] += attempts
         results['p1_original']['total_additions'] += additions
         if factor != N:
             results['p1_original']['success'] += 1
             print(f"Original p-1 found factor: {factor} in {attempts} attempts and {additions} additions")
         
-        # Test ECM p-1 factorization
-        factor, attempts, additions = ecm_factorization(N, method="p-1", B=B)
+        # Test ECM p-1 factorization with different seeds
+        # random.seed(i)  # Reset seed for this test
+        factor, attempts, additions = ecm_factorization(N, method="p-1")
         results['ecm_p1']['total_attempts'] += attempts
         results['ecm_p1']['total_additions'] += additions
         if factor != N:
@@ -81,4 +84,4 @@ def run_comparison(num_tests=10, min_size=1000, max_size=10000):
 
 if __name__ == "__main__":
     # Run comparison with 10 test numbers between 1000 and 10000
-    run_comparison(num_tests=100, min_size=1000, max_size=10000) 
+    run_comparison(num_tests=1000, min_size=1000, max_size=10000) 

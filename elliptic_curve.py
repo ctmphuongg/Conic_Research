@@ -10,6 +10,7 @@ def ecm_factorization(N, method="fact", max_attempts = 100000):
         N: Number to factorize
         method: "fact" for factorial method or "p-1" for prime powers method
         max_attempts: Maximum number of attempts to find a factor
+        B: Bound for prime powers (if None, will generate random bound)
     """
     if N <= 1:
         return N, 0, 0
@@ -20,7 +21,10 @@ def ecm_factorization(N, method="fact", max_attempts = 100000):
     total_additions = 0
     
     for attempt in range(1, max_attempts + 1):
-        B = randint(1, N)
+        # Use different seed for each attempt
+        random.seed(attempt)
+        B = randint(1, math.ceil(N**(1/2)))
+            
         x0 = randint(0, N-1)
         y0 = randint(0, N-1)
         a = randint(0, N-1)
@@ -75,3 +79,4 @@ def ecm_factorization(N, method="fact", max_attempts = 100000):
   
 print("Factor of 20167919", ecm_factorization(20167919))
 print("Factor of 180181*181081", ecm_factorization(32627355661))
+print("Factor of 3326489*3326489", ecm_factorization(11065529067121))
