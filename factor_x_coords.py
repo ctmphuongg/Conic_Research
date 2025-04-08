@@ -49,13 +49,13 @@ def conic_factorization(N, method="fact", max_attempts=10000):
     total_additions = 0
     for attempt in range(1, max_attempts+1):
         # Use different seed for each attempt
-        random.seed(attempt)
+        # random.seed(attempt)
         
         x = random.randint(1, N-1)
         R = IntegerModRing(N)
         K = R(x)
         
-        B = random.randint(1, math.ceil(N**(1/2)))
+        B = random.randint(1, math.ceil(N**(1/6)))
         print("Attempt ", attempt, " B=", B, " x=", x)
         
         if method == "p-1":
@@ -91,7 +91,7 @@ Factor of 180181 * 181081 (181081, 1)
 '''
 # print("Factor of 20167919", conic_factorization(20167919))
 # print("Factor of 180181*181081", conic_factorization(32627355661))
-# print("Factor of 3326489*3326489", conic_factorization(11065529067121, max_attempts=5))
+# print("Factor of 3326489*3326489", conic_factorization(11065529067121, max_attempts=1000))
 
 
 

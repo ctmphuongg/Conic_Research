@@ -84,4 +84,4 @@ def run_comparison(num_tests=10, min_size=1000, max_size=10000):
 
 if __name__ == "__main__":
     # Run comparison with 10 test numbers between 1000 and 10000
-    run_comparison(num_tests=1000, min_size=1000, max_size=10000) 
+    run_comparison(num_tests=1000, min_size=10000, max_size=100000) 
