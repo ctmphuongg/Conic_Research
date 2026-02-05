@@ -2,8 +2,8 @@ import time
 import random
 from sage.all import Integer, randint, is_prime, primes
 from factor_x_coords import conic_factorization
-from p1_algo import p1_factorize_original
-from elliptic_curve import ecm_factorization
+from archived.p1_algo import p1_factorize_original
+from archived.elliptic_curve import ecm_factorization
 
 def generate_test_numbers(num_tests, mode="random", min_size=1000, max_size=10000, max_diff=None):
     """Generate test numbers by multiplying two random primes

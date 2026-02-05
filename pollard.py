@@ -22,6 +22,6 @@ def pollard_factor(N, B):
                 return -1
             
     return -1
-
-# print(pollard_factor(391, 19))
-print(pollard_factor(357, 6))
+if __name__ == "__main__":
+    # print(pollard_factor(391, 19))
+    print(pollard_factor(357, 6))

@@ -102,7 +102,10 @@ def pell_method(NN, B):
 
     return "failure"
 
-NN = 299
-B = 10
-factor = pell_method(NN, B)
-print("Factor found:", factor)
+if __name__ == "__main__":
+    NN = 299
+    B = 10
+    factor = pell_method(NN, B)
+    print("Factor found:", factor)
+    factor2 = pell_method(357, 6)
+    print("Factor found:", factor2)

@@ -120,7 +120,8 @@ def williams_method(NN, B):
         # if no factor found
         return "failure"
 
-# Example usage
-NN = 91  # number to factor
-B = 3     # smoothness bound
-williams_method(NN, B)
+if __name__ == "__main__":
+    # Example usage
+    NN = 91  # number to factor
+    B = 3     # smoothness bound
+    williams_method(NN, B)
