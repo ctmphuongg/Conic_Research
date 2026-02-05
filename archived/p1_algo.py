@@ -83,7 +83,7 @@ def p1_factorize_16(N, B=None, max_attempts=10000):
         
     # Set B = N^(1/6) if not provided
     if B is None:
-        B = math.floor(N**(1/6))
+        B = math.floor(N**(1/3))
     
     # Choose a coprime to N
     if N % 2 == 1:

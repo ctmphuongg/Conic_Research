@@ -1,0 +1,2072 @@
+Testing number: 7989528361
+Testing number: 
+Conic factorization required 965 attempts
+----------------------------------------
+Testing number: 3573309473
+Testing number: 
+Conic factorization required 873 attempts
+----------------------------------------
+Testing number: 2847355697
+Testing number: 
+Conic factorization required 1963 attempts
+----------------------------------------
+Testing number: 1937797699
+Testing number: 
+Conic factorization required 3287 attempts
+----------------------------------------
+Testing number: 1474596311
+Testing number: 
+Conic factorization required 2352 attempts
+----------------------------------------
+Testing number: 1278861803
+Testing number: 
+Conic factorization required 499 attempts
+----------------------------------------
+Testing number: 324112351
+Testing number: 
+Conic factorization required 252 attempts
+----------------------------------------
+Testing number: 4524530503
+Testing number: 
+Conic factorization required 1246 attempts
+----------------------------------------
+Testing number: 3611266171
+Testing number: 
+Conic factorization required 248 attempts
+----------------------------------------
+Testing number: 3316212787
+Testing number: 
+Conic factorization required 848 attempts
+----------------------------------------
+Testing number: 4005574093
+Testing number: 
+Conic factorization required 372 attempts
+----------------------------------------
+Testing number: 2548929457
+Testing number: 
+Conic factorization required 201 attempts
+----------------------------------------
+Testing number: 2033371733
+Testing number: 
+Conic factorization required 411 attempts
+----------------------------------------
+Testing number: 6293804899
+Testing number: 
+Conic factorization required 5203 attempts
+----------------------------------------
+Testing number: 1916946847
+Testing number: 
+Conic factorization required 304 attempts
+----------------------------------------
+Testing number: 1261576051
+Testing number: 
+Conic factorization required 619 attempts
+----------------------------------------
+Testing number: 5299461403
+Testing number: 
+Conic factorization required 105 attempts
+----------------------------------------
+Testing number: 1303916213
+Testing number: 
+Conic factorization required 645 attempts
+----------------------------------------
+Testing number: 4408200877
+Testing number: 
+Conic factorization required 442 attempts
+----------------------------------------
+Testing number: 1474405687
+Testing number: 
+Conic factorization required 2275 attempts
+----------------------------------------
+Testing number: 8400630197
+Testing number: 
+Conic factorization required 456 attempts
+----------------------------------------
+Testing number: 3503137349
+Testing number: 
+Conic factorization required 808 attempts
+----------------------------------------
+Testing number: 2567341631
+Testing number: 31327 x 81923
+Conic factorization required 276 attempts
+----------------------------------------
+Testing number: 2241641863
+Testing number: 33107 x 67709
+Conic factorization required 1129 attempts
+----------------------------------------
+Testing number: 1731577831
+Testing number: 44129 x 39239
+Conic factorization required 670 attempts
+----------------------------------------
+Testing number: 2184566903
+Testing number: 
+Conic factorization required 2132 attempts
+----------------------------------------
+Testing number: 3774808969
+Testing number: 
+Conic factorization required 155 attempts
+----------------------------------------
+Testing number: 1023076139
+Testing number: 
+Conic factorization required 165 attempts
+----------------------------------------
+Testing number: 1488147571
+Testing number: 
+Conic factorization required 170 attempts
+----------------------------------------
+Testing number: 7839732809
+Testing number: 
+Conic factorization required 133 attempts
+----------------------------------------
+Testing number: 1358544367
+Testing number: 
+Conic factorization required 390 attempts
+----------------------------------------
+Testing number: 967672543
+Testing number: 
+Conic factorization required 160 attempts
+----------------------------------------
+Testing number: 6695295479
+Testing number: 
+Conic factorization required 458 attempts
+----------------------------------------
+Testing number: 2685268447
+Testing number: 
+Conic factorization required 1711 attempts
+----------------------------------------
+Testing number: 7237515127
+Testing number: 
+Conic factorization required 1156 attempts
+----------------------------------------
+Testing number: 4846888153
+Testing number: 
+Conic factorization required 203 attempts
+----------------------------------------
+Testing number: 1387534471
+Testing number: 
+Conic factorization required 239 attempts
+----------------------------------------
+Testing number: 5568834613
+Testing number: 
+Conic factorization required 501 attempts
+----------------------------------------
+Testing number: 1868252171
+Testing number: 
+Conic factorization required 151 attempts
+----------------------------------------
+Testing number: 6794715581
+Testing number: 
+Conic factorization required 427 attempts
+----------------------------------------
+Testing number: 1285147651
+Testing number: 
+Conic factorization required 394 attempts
+----------------------------------------
+Testing number: 1280427851
+Testing number: 
+Conic factorization required 133 attempts
+----------------------------------------
+Testing number: 5201660701
+Testing number: 
+Conic factorization required 632 attempts
+----------------------------------------
+Testing number: 3446684767
+Testing number: 
+Conic factorization required 341 attempts
+----------------------------------------
+Testing number: 4404993217
+Testing number: 
+Conic factorization required 435 attempts
+----------------------------------------
+Testing number: 483647779
+Testing number: 
+Conic factorization required 151 attempts
+----------------------------------------
+Testing number: 3378791761
+Testing number: 
+Conic factorization required 690 attempts
+----------------------------------------
+Testing number: 5658712817
+Testing number: 
+Conic factorization required 256 attempts
+----------------------------------------
+Testing number: 1401284267
+Testing number: 
+Conic factorization required 103 attempts
+----------------------------------------
+Testing number: 6748469921
+Testing number: 
+Conic factorization required 1046 attempts
+----------------------------------------
+Testing number: 724820293
+Testing number: 
+Conic factorization required 248 attempts
+----------------------------------------
+Testing number: 5879440453
+Testing number: 
+Conic factorization required 750 attempts
+----------------------------------------
+Testing number: 797969377
+Testing number: 
+Conic factorization required 382 attempts
+----------------------------------------
+Testing number: 930421717
+Testing number: 
+Conic factorization required 1032 attempts
+----------------------------------------
+Testing number: 4675118081
+Testing number: 
+Conic factorization required 555 attempts
+----------------------------------------
+Testing number: 2704475047
+Testing number: 
+Conic factorization required 109 attempts
+----------------------------------------
+Testing number: 841239137
+Testing number: 
+Conic factorization required 1923 attempts
+----------------------------------------
+Testing number: 4936460041
+Testing number: 
+Conic factorization required 238 attempts
+----------------------------------------
+Testing number: 1314619067
+Testing number: 
+Conic factorization required 421 attempts
+----------------------------------------
+Testing number: 734817371
+Testing number: 
+Conic factorization required 1815 attempts
+----------------------------------------
+Testing number: 1566083153
+Testing number: 
+Conic factorization required 127 attempts
+----------------------------------------
+Testing number: 2921561693
+Testing number: 
+Conic factorization required 173 attempts
+----------------------------------------
+Testing number: 848425547
+Testing number: 
+Conic factorization required 152 attempts
+----------------------------------------
+Testing number: 394170701
+Testing number: 
+Conic factorization required 180 attempts
+----------------------------------------
+Testing number: 2932615883
+Testing number: 
+Conic factorization required 269 attempts
+----------------------------------------
+Testing number: 940210927
+Testing number: 
+Conic factorization required 1473 attempts
+----------------------------------------
+Testing number: 804027613
+Testing number: 
+Conic factorization required 194 attempts
+----------------------------------------
+Testing number: 392280409
+Testing number: 
+Conic factorization required 311 attempts
+----------------------------------------
+Testing number: 4330253503
+Testing number: 
+Conic factorization required 265 attempts
+----------------------------------------
+Testing number: 2729200637
+Testing number: 
+Conic factorization required 495 attempts
+----------------------------------------
+Testing number: 3683620667
+Testing number: 
+Conic factorization required 134 attempts
+----------------------------------------
+Testing number: 4857675671
+Testing number: 
+Conic factorization required 496 attempts
+----------------------------------------
+Testing number: 4409153347
+Testing number: 
+Conic factorization required 500 attempts
+----------------------------------------
+Testing number: 986465197
+Testing number: 
+Conic factorization required 445 attempts
+----------------------------------------
+Testing number: 1077846283
+Testing number: 
+Conic factorization required 767 attempts
+----------------------------------------
+Testing number: 2894591549
+Testing number: 
+Conic factorization required 1191 attempts
+----------------------------------------
+Testing number: 1466710307
+Testing number: 
+Conic factorization required 227 attempts
+----------------------------------------
+Testing number: 3467454847
+Testing number: 
+Conic factorization required 1095 attempts
+----------------------------------------
+Testing number: 4844288257
+Testing number: 
+Conic factorization required 404 attempts
+----------------------------------------
+Testing number: 3482061937
+Testing number: 
+Conic factorization required 379 attempts
+----------------------------------------
+Testing number: 1687234147
+Testing number: 
+Conic factorization required 524 attempts
+----------------------------------------
+Testing number: 3392399977
+Testing number: 
+Conic factorization required 173 attempts
+----------------------------------------
+Testing number: 1322938433
+Testing number: 
+Conic factorization required 181 attempts
+----------------------------------------
+Testing number: 3414389593
+Testing number: 
+Conic factorization required 820 attempts
+----------------------------------------
+Testing number: 1010302567
+Testing number: 
+Conic factorization required 765 attempts
+----------------------------------------
+Testing number: 6369630997
+Testing number: 
+Conic factorization required 124 attempts
+----------------------------------------
+Testing number: 2623363811
+Testing number: 
+Conic factorization required 152 attempts
+----------------------------------------
+Testing number: 4842874493
+Testing number: 
+Conic factorization required 155 attempts
+----------------------------------------
+Testing number: 6601985417
+Testing number: 
+Conic factorization required 212 attempts
+----------------------------------------
+Testing number: 2712987569
+Testing number: 
+Conic factorization required 757 attempts
+----------------------------------------
+Testing number: 3930143171
+Testing number: 
+Conic factorization required 295 attempts
+----------------------------------------
+Testing number: 3174460613
+Testing number: 
+Conic factorization required 243 attempts
+----------------------------------------
+Testing number: 948065297
+Testing number: 
+Conic factorization required 241 attempts
+----------------------------------------
+Testing number: 1218237677
+Testing number: 
+Conic factorization required 180 attempts
+----------------------------------------
+Testing number: 5275343387
+Testing number: 
+Conic factorization required 5978 attempts
+----------------------------------------
+Testing number: 6933071323
+Testing number: 
+Conic factorization required 675 attempts
+----------------------------------------
+Testing number: 8479682567
+Testing number: 
+Conic factorization required 568 attempts
+----------------------------------------
+Testing number: 1485791137
+Testing number: 
+Conic factorization required 159 attempts
+----------------------------------------
+Testing number: 3898267213
+Testing number: 
+Conic factorization required 739 attempts
+----------------------------------------
+Testing number: 1762379873
+Testing number: 
+Conic factorization required 500 attempts
+----------------------------------------
+Testing number: 4473573869
+Testing number: 
+Conic factorization required 111 attempts
+----------------------------------------
+Testing number: 2184821791
+Testing number: 
+Conic factorization required 384 attempts
+----------------------------------------
+Testing number: 1016104961
+Testing number: 
+Conic factorization required 124 attempts
+----------------------------------------
+Testing number: 454179083
+Testing number: 
+Conic factorization required 134 attempts
+----------------------------------------
+Testing number: 8838808411
+Testing number: 
+Conic factorization required 6575 attempts
+----------------------------------------
+Testing number: 2459592221
+Testing number: 
+Conic factorization required 683 attempts
+----------------------------------------
+Testing number: 3962709143
+Testing number: 
+Conic factorization required 384 attempts
+----------------------------------------
+Testing number: 1146215417
+Testing number: 
+Conic factorization required 1516 attempts
+----------------------------------------
+Testing number: 1647231977
+Testing number: 
+Conic factorization required 1001 attempts
+----------------------------------------
+Testing number: 3344017777
+Testing number: 
+Conic factorization required 415 attempts
+----------------------------------------
+Testing number: 4619178763
+Testing number: 
+Conic factorization required 818 attempts
+----------------------------------------
+Testing number: 3613456391
+Testing number: 
+Conic factorization required 6861 attempts
+----------------------------------------
+Testing number: 3880837063
+Testing number: 
+Conic factorization required 574 attempts
+----------------------------------------
+Testing number: 4130763493
+Testing number: 
+Conic factorization required 412 attempts
+----------------------------------------
+Testing number: 4430712971
+Testing number: 
+Conic factorization required 332 attempts
+----------------------------------------
+Testing number: 5118052109
+Testing number: 
+Conic factorization required 3804 attempts
+----------------------------------------
+Testing number: 6343729013
+Testing number: 
+Conic factorization required 200 attempts
+----------------------------------------
+Testing number: 2075073727
+Testing number: 
+Conic factorization required 789 attempts
+----------------------------------------
+Testing number: 5584744261
+Testing number: 
+Conic factorization required 298 attempts
+----------------------------------------
+Testing number: 2773082119
+Testing number: 
+Conic factorization required 1074 attempts
+----------------------------------------
+Testing number: 6152986079
+Testing number: 
+Conic factorization required 158 attempts
+----------------------------------------
+Testing number: 5791638329
+Testing number: 
+Conic factorization required 661 attempts
+----------------------------------------
+Testing number: 2370128023
+Testing number: 
+Conic factorization required 233 attempts
+----------------------------------------
+Testing number: 4061112823
+Testing number: 
+Conic factorization required 160 attempts
+----------------------------------------
+Testing number: 3972351791
+Testing number: 
+Conic factorization required 763 attempts
+----------------------------------------
+Testing number: 6302915413
+Testing number: 
+Conic factorization required 1087 attempts
+----------------------------------------
+Testing number: 5467055479
+Testing number: 
+Conic factorization required 189 attempts
+----------------------------------------
+Testing number: 4332705667
+Testing number: 
+Conic factorization required 349 attempts
+----------------------------------------
+Testing number: 7698429553
+Testing number: 
+Conic factorization required 122 attempts
+----------------------------------------
+Testing number: 5961981931
+Testing number: 
+Conic factorization required 120 attempts
+----------------------------------------
+Testing number: 1581860993
+Testing number: 
+Conic factorization required 1948 attempts
+----------------------------------------
+Testing number: 1971746713
+Testing number: 
+Conic factorization required 587 attempts
+----------------------------------------
+Testing number: 3404130517
+Testing number: 
+Conic factorization required 351 attempts
+----------------------------------------
+Testing number: 2676599773
+Testing number: 
+Conic factorization required 524 attempts
+----------------------------------------
+Testing number: 2295640793
+Testing number: 
+Conic factorization required 198 attempts
+----------------------------------------
+Testing number: 5185707671
+Testing number: 
+Conic factorization required 1285 attempts
+----------------------------------------
+Testing number: 1692571583
+Testing number: 
+Conic factorization required 868 attempts
+----------------------------------------
+Testing number: 765181139
+Testing number: 
+Conic factorization required 1821 attempts
+----------------------------------------
+Testing number: 2405778071
+Testing number: 
+Conic factorization required 179 attempts
+----------------------------------------
+Testing number: 4963678661
+Testing number: 
+Conic factorization required 523 attempts
+----------------------------------------
+Testing number: 819818239
+Testing number: 
+Conic factorization required 558 attempts
+----------------------------------------
+Testing number: 7837572671
+Testing number: 
+Conic factorization required 134 attempts
+----------------------------------------
+Testing number: 1678749407
+Testing number: 
+Conic factorization required 189 attempts
+----------------------------------------
+Testing number: 1910646919
+Testing number: 
+Conic factorization required 127 attempts
+----------------------------------------
+Testing number: 3423821719
+Testing number: 
+Conic factorization required 261 attempts
+----------------------------------------
+Testing number: 935972881
+Testing number: 
+Conic factorization required 236 attempts
+----------------------------------------
+Testing number: 2577361933
+Testing number: 
+Conic factorization required 419 attempts
+----------------------------------------
+Testing number: 8922532387
+Testing number: 
+Conic factorization required 339 attempts
+----------------------------------------
+Testing number: 198403391
+Testing number: 
+Conic factorization required 220 attempts
+----------------------------------------
+Testing number: 856689661
+Testing number: 
+Conic factorization required 339 attempts
+----------------------------------------
+Testing number: 3633795751
+Testing number: 
+Conic factorization required 570 attempts
+----------------------------------------
+Testing number: 1514591993
+Testing number: 
+Conic factorization required 626 attempts
+----------------------------------------
+Testing number: 4487657677
+Testing number: 
+Conic factorization required 437 attempts
+----------------------------------------
+Testing number: 3929258681
+Testing number: 
+Conic factorization required 120 attempts
+----------------------------------------
+Testing number: 154209379
+Testing number: 
+Conic factorization required 219 attempts
+----------------------------------------
+Testing number: 2107758769
+Testing number: 
+Conic factorization required 2070 attempts
+----------------------------------------
+Testing number: 1373744011
+Testing number: 
+Conic factorization required 2353 attempts
+----------------------------------------
+Testing number: 689350009
+Testing number: 
+Conic factorization required 158 attempts
+----------------------------------------
+Testing number: 3296760703
+Testing number: 
+Conic factorization required 178 attempts
+----------------------------------------
+Testing number: 1081460839
+Testing number: 
+Conic factorization required 141 attempts
+----------------------------------------
+Testing number: 7326768079
+Testing number: 
+Conic factorization required 1650 attempts
+----------------------------------------
+Testing number: 2560721263
+Testing number: 
+Conic factorization required 157 attempts
+----------------------------------------
+Testing number: 5298684029
+Testing number: 
+Conic factorization required 908 attempts
+----------------------------------------
+Testing number: 4427700649
+Testing number: 
+Conic factorization required 1377 attempts
+----------------------------------------
+Testing number: 467720243
+Testing number: 
+Conic factorization required 481 attempts
+----------------------------------------
+Testing number: 1256041453
+Testing number: 
+Conic factorization required 114 attempts
+----------------------------------------
+Testing number: 300094507
+Testing number: 
+Conic factorization required 127 attempts
+----------------------------------------
+Testing number: 3752057809
+Testing number: 
+Conic factorization required 545 attempts
+----------------------------------------
+Testing number: 304444867
+Testing number: 
+Conic factorization required 128 attempts
+----------------------------------------
+Testing number: 1536085207
+Testing number: 
+Conic factorization required 516 attempts
+----------------------------------------
+Testing number: 5493015337
+Testing number: 
+Conic factorization required 197 attempts
+----------------------------------------
+Testing number: 1563788803
+Testing number: 
+Conic factorization required 109 attempts
+----------------------------------------
+Testing number: 2759015101
+Testing number: 
+Conic factorization required 131 attempts
+----------------------------------------
+Testing number: 2742866039
+Testing number: 
+Conic factorization required 1964 attempts
+----------------------------------------
+Testing number: 3565819027
+Testing number: 
+Conic factorization required 240 attempts
+----------------------------------------
+Testing number: 1521029039
+Testing number: 
+Conic factorization required 138 attempts
+----------------------------------------
+Testing number: 787713763
+Testing number: 
+Conic factorization required 121 attempts
+----------------------------------------
+Testing number: 1069237849
+Testing number: 
+Conic factorization required 392 attempts
+----------------------------------------
+Testing number: 8265441601
+Testing number: 
+Conic factorization required 10000 attempts
+----------------------------------------
+Testing number: 5967493127
+Testing number: 
+Conic factorization required 122 attempts
+----------------------------------------
+Testing number: 4786677187
+Testing number: 
+Conic factorization required 244 attempts
+----------------------------------------
+Testing number: 1007057321
+Testing number: 
+Conic factorization required 140 attempts
+----------------------------------------
+Testing number: 2904687769
+Testing number: 
+Conic factorization required 218 attempts
+----------------------------------------
+Testing number: 5259450373
+Testing number: 
+Conic factorization required 259 attempts
+----------------------------------------
+Testing number: 1513300799
+Testing number: 
+Conic factorization required 159 attempts
+----------------------------------------
+Testing number: 2057649007
+Testing number: 
+Conic factorization required 171 attempts
+----------------------------------------
+Testing number: 4354692299
+Testing number: 
+Conic factorization required 263 attempts
+----------------------------------------
+Testing number: 4395109903
+Testing number: 
+Conic factorization required 545 attempts
+----------------------------------------
+Testing number: 5394341581
+Testing number: 
+Conic factorization required 102 attempts
+----------------------------------------
+Testing number: 259231129
+Testing number: 
+Conic factorization required 248 attempts
+----------------------------------------
+Testing number: 1656677749
+Testing number: 
+Conic factorization required 212 attempts
+----------------------------------------
+Testing number: 2139548533
+Testing number: 
+Conic factorization required 418 attempts
+----------------------------------------
+Testing number: 7184987107
+Testing number: 
+Conic factorization required 2898 attempts
+----------------------------------------
+Testing number: 3203606909
+Testing number: 
+Conic factorization required 1910 attempts
+----------------------------------------
+Testing number: 3116891237
+Testing number: 
+Conic factorization required 234 attempts
+----------------------------------------
+Testing number: 6014592781
+Testing number: 
+Conic factorization required 484 attempts
+----------------------------------------
+Testing number: 6801784039
+Testing number: 
+Conic factorization required 670 attempts
+----------------------------------------
+Testing number: 5085500281
+Testing number: 
+Conic factorization required 2286 attempts
+----------------------------------------
+Testing number: 2528845843
+Testing number: 
+Conic factorization required 380 attempts
+----------------------------------------
+Testing number: 3168298019
+Testing number: 
+Conic factorization required 145 attempts
+----------------------------------------
+Testing number: 920698313
+Testing number: 
+Conic factorization required 429 attempts
+----------------------------------------
+Testing number: 1766176337
+Testing number: 
+Conic factorization required 237 attempts
+----------------------------------------
+Testing number: 9815880059
+Testing number: 
+Conic factorization required 3629 attempts
+----------------------------------------
+Testing number: 2164381937
+Testing number: 
+Conic factorization required 1447 attempts
+----------------------------------------
+Testing number: 2490315623
+Testing number: 
+Conic factorization required 721 attempts
+----------------------------------------
+Testing number: 2465394053
+Testing number: 
+Conic factorization required 250 attempts
+----------------------------------------
+Testing number: 8073089891
+Testing number: 
+Conic factorization required 595 attempts
+----------------------------------------
+Testing number: 1280464337
+Testing number: 
+Conic factorization required 276 attempts
+----------------------------------------
+Testing number: 3766023229
+Testing number: 
+Conic factorization required 205 attempts
+----------------------------------------
+Testing number: 548701327
+Testing number: 
+Conic factorization required 281 attempts
+----------------------------------------
+Testing number: 1077862847
+Testing number: 
+Conic factorization required 955 attempts
+----------------------------------------
+Testing number: 1509214169
+Testing number: 
+Conic factorization required 2138 attempts
+----------------------------------------
+Testing number: 1148184313
+Testing number: 
+Conic factorization required 465 attempts
+----------------------------------------
+Testing number: 759874949
+Testing number: 
+Conic factorization required 109 attempts
+----------------------------------------
+Testing number: 6368929211
+Testing number: 
+Conic factorization required 130 attempts
+----------------------------------------
+Testing number: 662855849
+Testing number: 
+Conic factorization required 350 attempts
+----------------------------------------
+Testing number: 2534265607
+Testing number: 
+Conic factorization required 235 attempts
+----------------------------------------
+Testing number: 855484397
+Testing number: 
+Conic factorization required 104 attempts
+----------------------------------------
+Testing number: 3359488841
+Testing number: 
+Conic factorization required 250 attempts
+----------------------------------------
+Testing number: 4432742999
+Testing number: 
+Conic factorization required 383 attempts
+----------------------------------------
+Testing number: 2237695519
+Testing number: 
+Conic factorization required 2886 attempts
+----------------------------------------
+Testing number: 5951747653
+Testing number: 
+Conic factorization required 248 attempts
+----------------------------------------
+Testing number: 6343243519
+Testing number: 
+Conic factorization required 128 attempts
+----------------------------------------
+Testing number: 4607470939
+Testing number: 
+Conic factorization required 613 attempts
+----------------------------------------
+Testing number: 4111577797
+Testing number: 
+Conic factorization required 752 attempts
+----------------------------------------
+Testing number: 1020700801
+Testing number: 
+Conic factorization required 1190 attempts
+----------------------------------------
+Testing number: 2186914481
+Testing number: 
+Conic factorization required 677 attempts
+----------------------------------------
+Testing number: 1533179933
+Testing number: 
+Conic factorization required 530 attempts
+----------------------------------------
+Testing number: 1536943207
+Testing number: 
+Conic factorization required 119 attempts
+----------------------------------------
+Testing number: 5814297751
+Testing number: 
+Conic factorization required 1237 attempts
+----------------------------------------
+Testing number: 3022388791
+Testing number: 
+Conic factorization required 470 attempts
+----------------------------------------
+Testing number: 392280533
+Testing number: 
+Conic factorization required 265 attempts
+----------------------------------------
+Testing number: 4719871939
+Testing number: 
+Conic factorization required 2160 attempts
+----------------------------------------
+Testing number: 1039790993
+Testing number: 
+Conic factorization required 669 attempts
+----------------------------------------
+Testing number: 3345871751
+Testing number: 
+Conic factorization required 291 attempts
+----------------------------------------
+Testing number: 2517486047
+Testing number: 
+Conic factorization required 169 attempts
+----------------------------------------
+Testing number: 2976805841
+Testing number: 
+Conic factorization required 260 attempts
+----------------------------------------
+Testing number: 1026287893
+Testing number: 
+Conic factorization required 2159 attempts
+----------------------------------------
+Testing number: 2014115029
+Testing number: 
+Conic factorization required 170 attempts
+----------------------------------------
+Testing number: 3245317237
+Testing number: 
+Conic factorization required 113 attempts
+----------------------------------------
+Testing number: 5071810759
+Testing number: 
+Conic factorization required 893 attempts
+----------------------------------------
+Testing number: 2254197419
+Testing number: 
+Conic factorization required 558 attempts
+----------------------------------------
+Testing number: 5917996433
+Testing number: 
+Conic factorization required 788 attempts
+----------------------------------------
+Testing number: 1187611291
+Testing number: 
+Conic factorization required 368 attempts
+----------------------------------------
+Testing number: 944008451
+Testing number: 
+Conic factorization required 434 attempts
+----------------------------------------
+Testing number: 8083407583
+Testing number: 
+Conic factorization required 419 attempts
+----------------------------------------
+Testing number: 6767598689
+Testing number: 
+Conic factorization required 3130 attempts
+----------------------------------------
+Testing number: 1114687771
+Testing number: 
+Conic factorization required 156 attempts
+----------------------------------------
+Testing number: 6761834801
+Testing number: 
+Conic factorization required 1542 attempts
+----------------------------------------
+Testing number: 3548664467
+Testing number: 
+Conic factorization required 365 attempts
+----------------------------------------
+Testing number: 951774991
+Testing number: 
+Conic factorization required 203 attempts
+----------------------------------------
+Testing number: 5933416403
+Testing number: 
+Conic factorization required 119 attempts
+----------------------------------------
+Testing number: 4786955483
+Testing number: 
+Conic factorization required 338 attempts
+----------------------------------------
+Testing number: 3594267301
+Testing number: 
+Conic factorization required 626 attempts
+----------------------------------------
+Testing number: 1118001341
+Testing number: 
+Conic factorization required 730 attempts
+----------------------------------------
+Testing number: 567043031
+Testing number: 
+Conic factorization required 460 attempts
+----------------------------------------
+Testing number: 2979422539
+Testing number: 
+Conic factorization required 1330 attempts
+----------------------------------------
+Testing number: 1520952421
+Testing number: 
+Conic factorization required 101 attempts
+----------------------------------------
+Testing number: 1866864071
+Testing number: 
+Conic factorization required 1632 attempts
+----------------------------------------
+Testing number: 5972951533
+Testing number: 
+Conic factorization required 402 attempts
+----------------------------------------
+Testing number: 1687575101
+Testing number: 
+Conic factorization required 839 attempts
+----------------------------------------
+Testing number: 3385106539
+Testing number: 
+Conic factorization required 639 attempts
+----------------------------------------
+Testing number: 1131953741
+Testing number: 
+Conic factorization required 336 attempts
+----------------------------------------
+Testing number: 988184713
+Testing number: 
+Conic factorization required 960 attempts
+----------------------------------------
+Testing number: 5216902087
+Testing number: 
+Conic factorization required 1593 attempts
+----------------------------------------
+Testing number: 676854769
+Testing number: 
+Conic factorization required 427 attempts
+----------------------------------------
+Testing number: 5494008427
+Testing number: 
+Conic factorization required 397 attempts
+----------------------------------------
+Testing number: 3639877537
+Testing number: 
+Conic factorization required 1648 attempts
+----------------------------------------
+Testing number: 1615872733
+Testing number: 
+Conic factorization required 681 attempts
+----------------------------------------
+Testing number: 1363440277
+Testing number: 
+Conic factorization required 903 attempts
+----------------------------------------
+Testing number: 4859325907
+Testing number: 
+Conic factorization required 112 attempts
+----------------------------------------
+Testing number: 1973433169
+Testing number: 
+Conic factorization required 642 attempts
+----------------------------------------
+Testing number: 2865064091
+Testing number: 
+Conic factorization required 115 attempts
+----------------------------------------
+Testing number: 1968795601
+Testing number: 
+Conic factorization required 456 attempts
+----------------------------------------
+Testing number: 1445573677
+Testing number: 
+Conic factorization required 119 attempts
+----------------------------------------
+Testing number: 213010367
+Testing number: 
+Conic factorization required 182 attempts
+----------------------------------------
+Testing number: 7874097071
+Testing number: 
+Conic factorization required 252 attempts
+----------------------------------------
+Testing number: 1855800659
+Testing number: 
+Conic factorization required 152 attempts
+----------------------------------------
+Testing number: 6039611581
+Testing number: 
+Conic factorization required 187 attempts
+----------------------------------------
+Testing number: 947625517
+Testing number: 
+Conic factorization required 151 attempts
+----------------------------------------
+Testing number: 1464024203
+Testing number: 
+Conic factorization required 1144 attempts
+----------------------------------------
+Testing number: 1311976027
+Testing number: 
+Conic factorization required 436 attempts
+----------------------------------------
+Testing number: 5586469937
+Testing number: 
+Conic factorization required 533 attempts
+----------------------------------------
+Testing number: 6110248121
+Testing number: 
+Conic factorization required 503 attempts
+----------------------------------------
+Testing number: 7078891553
+Testing number: 
+Conic factorization required 214 attempts
+----------------------------------------
+Testing number: 2564544953
+Testing number: 
+Conic factorization required 125 attempts
+----------------------------------------
+Testing number: 1099235237
+Testing number: 
+Conic factorization required 521 attempts
+----------------------------------------
+Testing number: 7354958647
+Testing number: 
+Conic factorization required 1064 attempts
+----------------------------------------
+Testing number: 4035646073
+Testing number: 
+Conic factorization required 1492 attempts
+----------------------------------------
+Testing number: 3861354443
+Testing number: 
+Conic factorization required 161 attempts
+----------------------------------------
+Testing number: 836019577
+Testing number: 
+Conic factorization required 1772 attempts
+----------------------------------------
+Testing number: 514705223
+Testing number: 
+Conic factorization required 578 attempts
+----------------------------------------
+Testing number: 2428948507
+Testing number: 
+Conic factorization required 303 attempts
+----------------------------------------
+Testing number: 5667311521
+Testing number: 
+Conic factorization required 1063 attempts
+----------------------------------------
+Testing number: 1173169391
+Testing number: 
+Conic factorization required 374 attempts
+----------------------------------------
+Testing number: 4001222791
+Testing number: 
+Conic factorization required 295 attempts
+----------------------------------------
+Testing number: 1768016039
+Testing number: 
+Conic factorization required 2137 attempts
+----------------------------------------
+Testing number: 3475876697
+Testing number: 
+Conic factorization required 187 attempts
+----------------------------------------
+Testing number: 734828467
+Testing number: 
+Conic factorization required 288 attempts
+----------------------------------------
+Testing number: 6988816279
+Testing number: 
+Conic factorization required 233 attempts
+----------------------------------------
+Testing number: 2339819081
+Testing number: 
+Conic factorization required 238 attempts
+----------------------------------------
+Testing number: 4813187279
+Testing number: 
+Conic factorization required 287 attempts
+----------------------------------------
+Testing number: 345303583
+Testing number: 
+Conic factorization required 264 attempts
+----------------------------------------
+Testing number: 755836297
+Testing number: 
+Conic factorization required 517 attempts
+----------------------------------------
+Testing number: 4180415597
+Testing number: 
+Conic factorization required 1459 attempts
+----------------------------------------
+Testing number: 5492672063
+Testing number: 
+Conic factorization required 1299 attempts
+----------------------------------------
+Testing number: 333629321
+Testing number: 
+Conic factorization required 104 attempts
+----------------------------------------
+Testing number: 1245700943
+Testing number: 
+Conic factorization required 162 attempts
+----------------------------------------
+Testing number: 3137764187
+Testing number: 
+Conic factorization required 767 attempts
+----------------------------------------
+Testing number: 6777030193
+Testing number: 
+Conic factorization required 273 attempts
+----------------------------------------
+Testing number: 6992051149
+Testing number: 
+Conic factorization required 521 attempts
+----------------------------------------
+Testing number: 2892313159
+Testing number: 
+Conic factorization required 188 attempts
+----------------------------------------
+Testing number: 1503765257
+Testing number: 
+Conic factorization required 822 attempts
+----------------------------------------
+Testing number: 7387483231
+Testing number: 
+Conic factorization required 328 attempts
+----------------------------------------
+Testing number: 1714447481
+Testing number: 
+Conic factorization required 142 attempts
+----------------------------------------
+Testing number: 4756736419
+Testing number: 
+Conic factorization required 272 attempts
+----------------------------------------
+Testing number: 1575523639
+Testing number: 
+Conic factorization required 360 attempts
+----------------------------------------
+Testing number: 783046903
+Testing number: 
+Conic factorization required 375 attempts
+----------------------------------------
+Testing number: 3126299131
+Testing number: 
+Conic factorization required 314 attempts
+----------------------------------------
+Testing number: 1426949287
+Testing number: 
+Conic factorization required 226 attempts
+----------------------------------------
+Testing number: 319513219
+Testing number: 
+Conic factorization required 509 attempts
+----------------------------------------
+Testing number: 203718233
+Testing number: 
+Conic factorization required 527 attempts
+----------------------------------------
+Testing number: 5068501729
+Testing number: 
+Conic factorization required 2111 attempts
+----------------------------------------
+Testing number: 5871714197
+Testing number: 
+Conic factorization required 179 attempts
+----------------------------------------
+Testing number: 1092580303
+Testing number: 
+Conic factorization required 574 attempts
+----------------------------------------
+Testing number: 6748623419
+Testing number: 
+Conic factorization required 126 attempts
+----------------------------------------
+Testing number: 8490279643
+Testing number: 
+Conic factorization required 1159 attempts
+----------------------------------------
+Testing number: 2397852101
+Testing number: 
+Conic factorization required 5369 attempts
+----------------------------------------
+Testing number: 3457057073
+Testing number: 
+Conic factorization required 152 attempts
+----------------------------------------
+Testing number: 1650148781
+Testing number: 
+Conic factorization required 116 attempts
+----------------------------------------
+Testing number: 8718783041
+Testing number: 
+Conic factorization required 158 attempts
+----------------------------------------
+Testing number: 2275724593
+Testing number: 
+Conic factorization required 221 attempts
+----------------------------------------
+Testing number: 2653311593
+Testing number: 
+Conic factorization required 2689 attempts
+----------------------------------------
+Testing number: 2098832447
+Testing number: 
+Conic factorization required 697 attempts
+----------------------------------------
+Testing number: 2292934513
+Testing number: 
+Conic factorization required 323 attempts
+----------------------------------------
+Testing number: 1151313731
+Testing number: 
+Conic factorization required 109 attempts
+----------------------------------------
+Testing number: 2636554097
+Testing number: 
+Conic factorization required 279 attempts
+----------------------------------------
+Testing number: 1189452779
+Testing number: 
+Conic factorization required 203 attempts
+----------------------------------------
+Testing number: 2249494271
+Testing number: 
+Conic factorization required 772 attempts
+----------------------------------------
+Testing number: 2461568723
+Testing number: 
+Conic factorization required 512 attempts
+----------------------------------------
+Testing number: 978787637
+Testing number: 
+Conic factorization required 118 attempts
+----------------------------------------
+Testing number: 1636548757
+Testing number: 
+Conic factorization required 246 attempts
+----------------------------------------
+Testing number: 2953562761
+Testing number: 
+Conic factorization required 501 attempts
+----------------------------------------
+Testing number: 6335073487
+Testing number: 
+Conic factorization required 593 attempts
+----------------------------------------
+Testing number: 715342249
+Testing number: 
+Conic factorization required 202 attempts
+----------------------------------------
+Testing number: 1809009911
+Testing number: 
+Conic factorization required 5607 attempts
+----------------------------------------
+Testing number: 852354661
+Testing number: 
+Conic factorization required 337 attempts
+----------------------------------------
+Testing number: 564323063
+Testing number: 
+Conic factorization required 186 attempts
+----------------------------------------
+Testing number: 1346894999
+Testing number: 
+Conic factorization required 137 attempts
+----------------------------------------
+Testing number: 658819127
+Testing number: 
+Conic factorization required 184 attempts
+----------------------------------------
+Testing number: 3738439153
+Testing number: 
+Conic factorization required 166 attempts
+----------------------------------------
+Testing number: 2451822083
+Testing number: 
+Conic factorization required 455 attempts
+----------------------------------------
+Testing number: 3610649197
+Testing number: 
+Conic factorization required 3411 attempts
+----------------------------------------
+Testing number: 1267079641
+Testing number: 
+Conic factorization required 552 attempts
+----------------------------------------
+Testing number: 4175603017
+Testing number: 
+Conic factorization required 705 attempts
+----------------------------------------
+Testing number: 409566433
+Testing number: 
+Conic factorization required 382 attempts
+----------------------------------------
+Testing number: 1233784441
+Testing number: 
+Conic factorization required 407 attempts
+----------------------------------------
+Testing number: 731603281
+Testing number: 
+Conic factorization required 181 attempts
+----------------------------------------
+Testing number: 5776440143
+Testing number: 
+Conic factorization required 185 attempts
+----------------------------------------
+Testing number: 939807641
+Testing number: 
+Conic factorization required 357 attempts
+----------------------------------------
+Testing number: 2450109913
+Testing number: 
+Conic factorization required 1206 attempts
+----------------------------------------
+Testing number: 6560040317
+Testing number: 
+Conic factorization required 1020 attempts
+----------------------------------------
+Testing number: 6804042451
+Testing number: 
+Conic factorization required 209 attempts
+----------------------------------------
+Testing number: 4557174311
+Testing number: 
+Conic factorization required 893 attempts
+----------------------------------------
+Testing number: 6024462229
+Testing number: 
+Conic factorization required 187 attempts
+----------------------------------------
+Testing number: 1751224793
+Testing number: 
+Conic factorization required 569 attempts
+----------------------------------------
+Testing number: 7345349903
+Testing number: 
+Conic factorization required 204 attempts
+----------------------------------------
+Testing number: 2935674193
+Testing number: 
+Conic factorization required 438 attempts
+----------------------------------------
+Testing number: 2376060851
+Testing number: 
+Conic factorization required 4809 attempts
+----------------------------------------
+Testing number: 5365841791
+Testing number: 
+Conic factorization required 220 attempts
+----------------------------------------
+Testing number: 2423831677
+Testing number: 
+Conic factorization required 114 attempts
+----------------------------------------
+Testing number: 5708789563
+Testing number: 
+Conic factorization required 3879 attempts
+----------------------------------------
+Testing number: 1318540529
+Testing number: 
+Conic factorization required 870 attempts
+----------------------------------------
+Testing number: 2089282859
+Testing number: 
+Conic factorization required 10000 attempts
+----------------------------------------
+Testing number: 312970387
+Testing number: 
+Conic factorization required 427 attempts
+----------------------------------------
+Testing number: 2588333299
+Testing number: 
+Conic factorization required 198 attempts
+----------------------------------------
+Testing number: 2064824207
+Testing number: 
+Conic factorization required 105 attempts
+----------------------------------------
+Testing number: 785438417
+Testing number: 
+Conic factorization required 251 attempts
+----------------------------------------
+Testing number: 3048397747
+Testing number: 
+Conic factorization required 951 attempts
+----------------------------------------
+Testing number: 5486024959
+Testing number: 
+Conic factorization required 1624 attempts
+----------------------------------------
+Testing number: 940558013
+Testing number: 
+Conic factorization required 752 attempts
+----------------------------------------
+Testing number: 6368910913
+Testing number: 
+Conic factorization required 777 attempts
+----------------------------------------
+Testing number: 2379741509
+Testing number: 
+Conic factorization required 169 attempts
+----------------------------------------
+Testing number: 5599094911
+Testing number: 
+Conic factorization required 325 attempts
+----------------------------------------
+Testing number: 1289240159
+Testing number: 
+Conic factorization required 188 attempts
+----------------------------------------
+Testing number: 506285873
+Testing number: 
+Conic factorization required 286 attempts
+----------------------------------------
+Testing number: 1467866941
+Testing number: 
+Conic factorization required 212 attempts
+----------------------------------------
+Testing number: 7477817437
+Testing number: 
+Conic factorization required 759 attempts
+----------------------------------------
+Testing number: 294653353
+Testing number: 
+Conic factorization required 519 attempts
+----------------------------------------
+Testing number: 786675689
+Testing number: 
+Conic factorization required 555 attempts
+----------------------------------------
+Testing number: 4057628753
+Testing number: 
+Conic factorization required 124 attempts
+----------------------------------------
+Testing number: 7158058823
+Testing number: 
+Conic factorization required 576 attempts
+----------------------------------------
+Testing number: 946428521
+Testing number: 
+Conic factorization required 899 attempts
+----------------------------------------
+Testing number: 1322091677
+Testing number: 
+Conic factorization required 1063 attempts
+----------------------------------------
+Testing number: 6891302981
+Testing number: 
+Conic factorization required 207 attempts
+----------------------------------------
+Testing number: 8266797659
+Testing number: 
+Conic factorization required 169 attempts
+----------------------------------------
+Testing number: 2493642703
+Testing number: 
+Conic factorization required 247 attempts
+----------------------------------------
+Testing number: 8524814993
+Testing number: 
+Conic factorization required 166 attempts
+----------------------------------------
+Testing number: 1271573557
+Testing number: 
+Conic factorization required 155 attempts
+----------------------------------------
+Testing number: 1571236259
+Testing number: 
+Conic factorization required 169 attempts
+----------------------------------------
+Testing number: 2312130803
+Testing number: 
+Conic factorization required 111 attempts
+----------------------------------------
+Testing number: 731596787
+Testing number: 
+Conic factorization required 159 attempts
+----------------------------------------
+Testing number: 2401115579
+Testing number: 
+Conic factorization required 294 attempts
+----------------------------------------
+Testing number: 3497972579
+Testing number: 
+Conic factorization required 582 attempts
+----------------------------------------
+Testing number: 824086457
+Testing number: 
+Conic factorization required 451 attempts
+----------------------------------------
+Testing number: 2450833741
+Testing number: 
+Conic factorization required 694 attempts
+----------------------------------------
+Testing number: 3956574217
+Testing number: 
+Conic factorization required 5557 attempts
+----------------------------------------
+Testing number: 1923611497
+Testing number: 
+Conic factorization required 805 attempts
+----------------------------------------
+Testing number: 912517913
+Testing number: 
+Conic factorization required 205 attempts
+----------------------------------------
+Testing number: 4626994973
+Testing number: 
+Conic factorization required 186 attempts
+----------------------------------------
+Testing number: 6764940827
+Testing number: 
+Conic factorization required 5237 attempts
+----------------------------------------
+Testing number: 333359707
+Testing number: 
+Conic factorization required 153 attempts
+----------------------------------------
+Testing number: 4330930817
+Testing number: 
+Conic factorization required 548 attempts
+----------------------------------------
+Testing number: 2697130477
+Testing number: 
+Conic factorization required 815 attempts
+----------------------------------------
+Testing number: 322009879
+Testing number: 
+Conic factorization required 273 attempts
+----------------------------------------
+Testing number: 1707120509
+Testing number: 
+Conic factorization required 1996 attempts
+----------------------------------------
+Testing number: 5876409943
+Testing number: 
+Conic factorization required 689 attempts
+----------------------------------------
+Testing number: 6536734327
+Testing number: 
+Conic factorization required 1689 attempts
+----------------------------------------
+Testing number: 5357339747
+Testing number: 
+Conic factorization required 1045 attempts
+----------------------------------------
+Testing number: 606865093
+Testing number: 
+Conic factorization required 158 attempts
+----------------------------------------
+Testing number: 3984567277
+Testing number: 
+Conic factorization required 162 attempts
+----------------------------------------
+Testing number: 5333798803
+Testing number: 
+Conic factorization required 448 attempts
+----------------------------------------
+Testing number: 2725820437
+Testing number: 
+Conic factorization required 248 attempts
+----------------------------------------
+Testing number: 3172858261
+Testing number: 
+Conic factorization required 329 attempts
+----------------------------------------
+Testing number: 3046486711
+Testing number: 
+Conic factorization required 229 attempts
+----------------------------------------
+Testing number: 2636605019
+Testing number: 
+Conic factorization required 954 attempts
+----------------------------------------
+Testing number: 559993699
+Testing number: 
+Conic factorization required 234 attempts
+----------------------------------------
+Testing number: 5274226759
+Testing number: 
+Conic factorization required 105 attempts
+----------------------------------------
+Testing number: 3863948107
+Testing number: 
+Conic factorization required 623 attempts
+----------------------------------------
+Testing number: 4205343913
+Testing number: 
+Conic factorization required 209 attempts
+----------------------------------------
+Testing number: 5303264851
+Testing number: 
+Conic factorization required 347 attempts
+----------------------------------------
+Testing number: 6271854947
+Testing number: 
+Conic factorization required 107 attempts
+----------------------------------------
+Testing number: 2021807087
+Testing number: 
+Conic factorization required 109 attempts
+----------------------------------------
+Testing number: 5033384351
+Testing number: 
+Conic factorization required 128 attempts
+----------------------------------------
+Testing number: 1892081549
+Testing number: 
+Conic factorization required 532 attempts
+----------------------------------------
+Testing number: 4727422663
+Testing number: 
+Conic factorization required 1170 attempts
+----------------------------------------
+Testing number: 2573595263
+Testing number: 
+Conic factorization required 257 attempts
+----------------------------------------
+Testing number: 9381651481
+Testing number: 
+Conic factorization required 1125 attempts
+----------------------------------------
+Testing number: 4603659337
+Testing number: 
+Conic factorization required 206 attempts
+----------------------------------------
+Testing number: 1595832737
+Testing number: 
+Conic factorization required 733 attempts
+----------------------------------------
+Testing number: 7796122799
+Testing number: 
+Conic factorization required 341 attempts
+----------------------------------------
+Testing number: 2314444577
+Testing number: 
+Conic factorization required 216 attempts
+----------------------------------------
+Testing number: 3604610773
+Testing number: 
+Conic factorization required 980 attempts
+----------------------------------------
+Testing number: 5817525277
+Testing number: 
+Conic factorization required 1449 attempts
+----------------------------------------
+Testing number: 571863869
+Testing number: 
+Conic factorization required 318 attempts
+----------------------------------------
+Testing number: 368297323
+Testing number: 
+Conic factorization required 306 attempts
+----------------------------------------
+Testing number: 1413175657
+Testing number: 
+Conic factorization required 166 attempts
+----------------------------------------
+Testing number: 1194700267
+Testing number: 
+Conic factorization required 276 attempts
+----------------------------------------
+Testing number: 1575910909
+Testing number: 
+Conic factorization required 1256 attempts
+----------------------------------------
+Testing number: 6573992657
+Testing number: 
+Conic factorization required 301 attempts
+----------------------------------------
+Testing number: 4899165683
+Testing number: 
+Conic factorization required 257 attempts
+----------------------------------------
+Testing number: 3724308689
+Testing number: 
+Conic factorization required 155 attempts
+----------------------------------------
+Testing number: 445395227
+Testing number: 
+Conic factorization required 216 attempts
+----------------------------------------
+Testing number: 1400086537
+Testing number: 
+Conic factorization required 168 attempts
+----------------------------------------
+Testing number: 4587691123
+Testing number: 
+Conic factorization required 1690 attempts
+----------------------------------------
+Testing number: 2802192391
+Testing number: 
+Conic factorization required 183 attempts
+----------------------------------------
+Testing number: 941374267
+Testing number: 
+Conic factorization required 425 attempts
+----------------------------------------
+Testing number: 9261559513
+Testing number: 
+Conic factorization required 4603 attempts
+----------------------------------------
+Testing number: 1624471547
+Testing number: 
+Conic factorization required 215 attempts
+----------------------------------------
+Testing number: 223639711
+Testing number: 
+Conic factorization required 213 attempts
+----------------------------------------
+Testing number: 4145566837
+Testing number: 
+Conic factorization required 3442 attempts
+----------------------------------------
+Testing number: 5763221767
+Testing number: 
+Conic factorization required 182 attempts
+----------------------------------------
+Testing number: 1522295431
+Testing number: 
+Conic factorization required 1421 attempts
+----------------------------------------
+Testing number: 5368110259
+Testing number: 
+Conic factorization required 1735 attempts
+----------------------------------------
+Testing number: 1532775311
+Testing number: 
+Conic factorization required 571 attempts
+----------------------------------------
+Testing number: 167254939
+Testing number: 
+Conic factorization required 591 attempts
+----------------------------------------
+Testing number: 2098716943
+Testing number: 
+Conic factorization required 1014 attempts
+----------------------------------------
+Testing number: 1650737401
+Testing number: 
+Conic factorization required 304 attempts
+----------------------------------------
+Testing number: 5853847117
+Testing number: 
+Conic factorization required 129 attempts
+----------------------------------------
+Testing number: 1722508141
+Testing number: 
+Conic factorization required 1152 attempts
+----------------------------------------
+Testing number: 432247531
+Testing number: 
+Conic factorization required 212 attempts
+----------------------------------------
+Testing number: 3013537607
+Testing number: 
+Conic factorization required 339 attempts
+----------------------------------------
+Testing number: 1904471381
+Testing number: 
+Conic factorization required 610 attempts
+----------------------------------------
+Testing number: 1232713511
+Testing number: 
+Conic factorization required 204 attempts
+----------------------------------------
+Testing number: 5672339549
+Testing number: 
+Conic factorization required 1555 attempts
+----------------------------------------
+Testing number: 1089175667
+Testing number: 
+Conic factorization required 912 attempts
+----------------------------------------
+Testing number: 2977570319
+Testing number: 
+Conic factorization required 149 attempts
+----------------------------------------
+Testing number: 366649007
+Testing number: 
+Conic factorization required 322 attempts
+----------------------------------------
+Testing number: 808308217
+Testing number: 
+Conic factorization required 210 attempts
+----------------------------------------
+Testing number: 610537819
+Testing number: 
+Conic factorization required 324 attempts
+----------------------------------------
+Testing number: 5631023311
+Testing number: 
+Conic factorization required 3278 attempts
+----------------------------------------
+Testing number: 2450613721
+Testing number: 
+Conic factorization required 263 attempts
+----------------------------------------
+Testing number: 224369627
+Testing number: 
+Conic factorization required 937 attempts
+----------------------------------------
+Testing number: 1804009483
+Testing number: 
+Conic factorization required 218 attempts
+----------------------------------------
+Testing number: 1761245219
+Testing number: 
+Conic factorization required 647 attempts
+----------------------------------------
+Testing number: 1263251201
+Testing number: 
+Conic factorization required 103 attempts
+----------------------------------------
+Testing number: 3342782857
+Testing number: 
+Conic factorization required 369 attempts
+----------------------------------------
+Testing number: 342733691
+Testing number: 
+Conic factorization required 1306 attempts
+----------------------------------------
+Testing number: 3048774643
+Testing number: 
+Conic factorization required 244 attempts
+----------------------------------------
+Testing number: 933518741
+Testing number: 
+Conic factorization required 1254 attempts
+----------------------------------------
+Testing number: 3875893249
+Testing number: 
+Conic factorization required 1791 attempts
+----------------------------------------
+Testing number: 4938606479
+Testing number: 
+Conic factorization required 423 attempts
+----------------------------------------
+Testing number: 6404115103
+Testing number: 
+Conic factorization required 316 attempts
+----------------------------------------
+Testing number: 1992598549
+Testing number: 
+Conic factorization required 168 attempts
+----------------------------------------
+Testing number: 1326624581
+Testing number: 
+Conic factorization required 1594 attempts
+----------------------------------------
+Testing number: 2143360871
+Testing number: 
+Conic factorization required 1437 attempts
+----------------------------------------
+Testing number: 3421279181
+Testing number: 
+Conic factorization required 131 attempts
+----------------------------------------
+Testing number: 4469785819
+Testing number: 
+Conic factorization required 553 attempts
+----------------------------------------
+Testing number: 1130721971
+Testing number: 
+Conic factorization required 192 attempts
+----------------------------------------
+Testing number: 659585321
+Testing number: 
+Conic factorization required 564 attempts
+----------------------------------------
+Testing number: 7159165813
+Testing number: 
+Conic factorization required 619 attempts
+----------------------------------------
+Testing number: 1830674077
+Testing number: 
+Conic factorization required 871 attempts
+----------------------------------------
+Testing number: 2584749319
+Testing number: 
+Conic factorization required 313 attempts
+----------------------------------------
+Testing number: 2252680981
+Testing number: 
+Conic factorization required 201 attempts
+----------------------------------------
+Testing number: 1037652299
+Testing number: 
+Conic factorization required 183 attempts
+----------------------------------------
+Testing number: 3381141653
+Testing number: 
+Conic factorization required 868 attempts
+----------------------------------------
+Testing number: 3715300189
+Testing number: 
+Conic factorization required 270 attempts
+----------------------------------------
+Testing number: 1879657567
+Testing number: 
+Conic factorization required 181 attempts
+----------------------------------------
+Testing number: 301725679
+Testing number: 
+Conic factorization required 2219 attempts
+----------------------------------------
+Testing number: 4929196417
+Testing number: 
+Conic factorization required 299 attempts
+----------------------------------------
+Testing number: 3988005143
+Testing number: 
+Conic factorization required 126 attempts
+----------------------------------------
+Testing number: 2844983467
+Testing number: 
+Conic factorization required 114 attempts
+----------------------------------------
+Testing number: 5794255919
+Testing number: 
+Conic factorization required 2064 attempts
+----------------------------------------
+Testing number: 4964852843
+Testing number: 
+Conic factorization required 498 attempts
+----------------------------------------
+Testing number: 6758458799
+Testing number: 
+Conic factorization required 109 attempts
+----------------------------------------
+Testing number: 1953382303
+Testing number: 
+Conic factorization required 1142 attempts
+----------------------------------------
+Testing number: 2529763661
+Testing number: 
+Conic factorization required 1872 attempts
+----------------------------------------
+Testing number: 1390963193
+Testing number: 
+Conic factorization required 153 attempts
+----------------------------------------

@@ -2,8 +2,8 @@ import time
 import random
 from sage.all import Integer, randint, is_prime, primes
 from factor_x_coords import conic_factorization
-from p1_algo import p1_factorize_original
-from elliptic_curve import ecm_factorization
+from archived.p1_algo import p1_factorize_original
+from archived.elliptic_curve import ecm_factorization
 
 '''
 Input bit size, make random things consistent in terms of bit size 

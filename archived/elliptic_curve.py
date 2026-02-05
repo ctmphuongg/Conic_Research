@@ -23,7 +23,7 @@ def ecm_factorization(N, method="fact", max_attempts = 100000):
     for attempt in range(1, max_attempts + 1):
         # Use different seed for each attempt
         # random.seed(attempt)
-        B = randint(1, math.ceil(N**(1/6)))
+        B = randint(1, math.ceil(N**(1/3)))
             
         x0 = randint(0, N-1)
         y0 = randint(0, N-1)

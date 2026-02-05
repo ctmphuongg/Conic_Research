@@ -1,4 +1,4 @@
-from add_point_n_times import self_add_optimized, add_point
+from archived.add_point_n_times import self_add_optimized, add_point
 import math
 from sage.all import IntegerModRing, primes, Integer, gcd
 import random
@@ -17,6 +17,27 @@ def recur_add_x(x, times):
     x_Q = recur_add_x(x, times - P)
     x_P_Q = recur_add_x(x, (times - P) - P)
     return 2*x_P*x_Q - x_P_Q
+
+def conic_factor(N, B):
+    x = random.randint(1, N-1)
+    R = IntegerModRing(N)
+    K = R(x)
+    
+    for l in primes(1, B+1):
+        e = math.ceil(math.log(l, N))
+        recur_add_x.cache_clear()
+        K = recur_add_x(K, l**e)
+        d = math.gcd(K-1, N)
+        if d != 1:
+            if d < N:
+                return d
+            else:
+                return -1
+            
+    return -1
+
+print(conic_factor(4183, 100))
+# print(conic_factor(391, 18))
 
 def factorization(N, max_attempts=5):
     N = Integer(N)
@@ -55,7 +76,7 @@ def conic_factorization(N, method="fact", max_attempts=10000):
         R = IntegerModRing(N)
         K = R(x)
         
-        B = random.randint(1, math.ceil(N**(1/6)))
+        B = random.randint(1, math.ceil(N**(1/3)))
         print("Attempt ", attempt, " B=", B, " x=", x)
         
         if method == "p-1":

@@ -5,7 +5,7 @@ import numpy as np
 import time
 from collections import defaultdict
 from sage.all import IntegerModRing, IntegerRing, gcd
-from add_point_n_times import self_add_optimized, add_point
+from archived.add_point_n_times import self_add_optimized, add_point
 
 def find_factor(N, x, y, delta):
     # print(x, y, delta)

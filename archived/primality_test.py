@@ -1,4 +1,4 @@
-from add_point_n_times import *
+from archived.add_point_n_times import *
 from functools import lru_cache
 
 def verify(delta, n):

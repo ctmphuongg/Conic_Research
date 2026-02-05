@@ -1,4 +1,4 @@
-from add_point_n_times import self_add_optimized, add_point
+from archived.add_point_n_times import self_add_optimized, add_point
 import math
 from sage.all import IntegerModRing, gcd
 import random
