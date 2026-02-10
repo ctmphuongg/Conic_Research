@@ -85,13 +85,13 @@ def williams_method(NN, B):
         x = tbar / t
         # check: x * G[1](x) should be 1
         assert x * G[_sage_const_1 ](x) == _sage_const_1 
-        print("d = ", d)
+        # print("d = ", d)
 
         # Step 5: define integers mod N
         ZZN = IntegerModRing(NN)
         z = polygen(ZZN, 'z')
         xN = (ZZN.extension(z**_sage_const_2  - d, 'a')(x))
-        print(f"xN = {xN}")
+        # print(f"xN = {xN}")
 
         # iterate over primes <= B
         primes_list = [p for p in prime_range(_sage_const_2 , B+_sage_const_1 )]
@@ -103,23 +103,23 @@ def williams_method(NN, B):
             E = p**e
 
             # extend ZZN by adding root of z^2 - d and coerce x
-            xN = (ZZN.extension(z**_sage_const_2  - d, 'a')(x))**E
+            xN = xN**E
 
             # print t, x, and xN for debugging
-            print(f"t = {t}")
-            print(f"x = {x}")
-            print(f"xN = {xN}")
-            print(f"l^e={p}^{e}")
+            # print(f"t = {t}")
+            # print(f"x = {x}")
+            # print(f"xN = {xN}")
+            # print(f"l^e={p}^{e}")
 
             # extract coefficients
             u = xN.list()[_sage_const_0 ]  # rational part
             v = xN.list()[_sage_const_1 ]  # sqrt(d) part
-            print(f"b mod N = {u} + {v}*sqrt({d})")
+            # print(f"b mod N = {u} + {v}*sqrt({d})")
 
             # check gcd for factor
             g = gcd([u-_sage_const_1 , v, NN])
             if g != _sage_const_1  and g != NN:
-                print(f"Nontrivial factor found: {g}")
+                # print(f"Nontrivial factor found: {g}")
                 return g
 
         # if no factor found
@@ -129,5 +129,5 @@ if __name__ == "__main__":
     # Example usage
     NN = _sage_const_91   # number to factor
     B = _sage_const_3      # smoothness bound
-    williams_method(NN, B)
+    print(williams_method(NN, B))
 

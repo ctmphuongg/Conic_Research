@@ -45,7 +45,7 @@ def lenstra_method(N, B):
     return "failure"
    
 if __name__ == "__main__":           
-    N = 299
-    B = 10
+    N = 583421287793
+    B = 12762
     factor = lenstra_method(N, B)
     print("Factor found:", factor)

@@ -1,7 +1,7 @@
 import time
 import random
 from sage.all import Integer, randint, is_prime, primes
-from factor_x_coords import conic_factorization
+from archived.factor_x_coords import conic_factorization
 from archived.p1_algo import p1_factorize_original
 from archived.elliptic_curve import ecm_factorization
 
