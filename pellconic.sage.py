@@ -33,24 +33,42 @@ def self_add_two_power(two_power, P, delta, R):
     return add_point(prev, prev, delta, R)
 
 
+# def self_add_optimized(n, P, delta, R):
+#     """
+#     Compute n*P on the Pell conic using binary decomposition (double-and-add).
+#     P is a tuple (r,s), delta is d in x^2 - d*y^2 = 1, R is Z/NZ.
+#     """
+#     if n == 0:
+#         return R(1), R(0)  # identity element
+
+#     result = (R(1), R(0))
+#     # Iterate over bits of n (from most significant to least)
+#     for bit in reversed(bin(n)[2:]):
+#         # Double the result each time
+#         result = add_point(result, result, delta, R)
+#         if bit == '1':
+#             # Add P if current bit is 1
+#             result = add_point(result, P, delta, R)
+#     return result
+
 def self_add_optimized(n, P, delta, R):
-    """
-    Compute n*P on the Pell conic using binary decomposition (double-and-add).
-    P is a tuple (r,s), delta is d in x^2 - d*y^2 = 1, R is Z/NZ.
-    """
     if n == _sage_const_0 :
-        return R(_sage_const_1 ), R(_sage_const_0 )  # identity element
+        return R(_sage_const_1 ), R(_sage_const_0 )
 
-    result = (R(_sage_const_1 ), R(_sage_const_0 ))
-    # Iterate over bits of n (from most significant to least)
-    for bit in reversed(bin(n)[_sage_const_2 :]):
-        # Double the result each time
-        result = add_point(result, result, delta, R)
+    result = (R(_sage_const_1 ), R(_sage_const_0 ))  # identity
+    first = True
+    for bit in bin(n)[_sage_const_2 :]:  # MSB -> LSB
+        if not first:
+            result = add_point(result, result, delta, R)  # double
         if bit == '1':
-            # Add P if current bit is 1
-            result = add_point(result, P, delta, R)
+            if first:
+                result = P
+                first = False
+            else:
+                result = add_point(result, P, delta, R)  # add P
+        else:
+            first = False  # after first bit processed
     return result
-
 
 def pell_method(NN, B):
     """
@@ -90,7 +108,7 @@ def pell_method(NN, B):
     primes_list = list(prime_range(_sage_const_2 , B+_sage_const_1 ))
     for p in primes_list:
         # Find e such that p^(e-1) < NN <= p^e
-        e = floor(log(B, p))
+        e = floor(log(NN, p))
         E = p**e
 
         # Multiply point by p^e

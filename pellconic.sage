@@ -28,23 +28,23 @@ def self_add_two_power(two_power, P, delta, R):
 
 
 def self_add_optimized(n, P, delta, R):
-    """
-    Compute n*P on the Pell conic using binary decomposition (double-and-add).
-    P is a tuple (r,s), delta is d in x^2 - d*y^2 = 1, R is Z/NZ.
-    """
     if n == 0:
-        return R(1), R(0)  # identity element
+        return R(1), R(0)
 
-    result = (R(1), R(0))
-    # Iterate over bits of n (from most significant to least)
-    for bit in reversed(bin(n)[2:]):
-        # Double the result each time
-        result = add_point(result, result, delta, R)
+    result = (R(1), R(0))  # identity
+    first = True
+    for bit in bin(n)[2:]:  # MSB -> LSB
+        if not first:
+            result = add_point(result, result, delta, R)  # double
         if bit == '1':
-            # Add P if current bit is 1
-            result = add_point(result, P, delta, R)
+            if first:
+                result = P
+                first = False
+            else:
+                result = add_point(result, P, delta, R)  # add P
+        else:
+            first = False  # after first bit processed
     return result
-
 
 def pell_method(NN, B):
     """
@@ -54,27 +54,25 @@ def pell_method(NN, B):
 
     R = Integers(NN)  # modular ring
     # Step 1: pick random a, b
-    while True:
-        a = randint(1, NN-1)
-        b = randint(1, NN-1)
+    a = randint(1, NN-1)
+    b = randint(1, NN-1)
 
-        # Quick gcd checks
-        g = gcd(a, NN)
-        if 1 < g < NN:
-            return g
-        g = gcd(b, NN)
-        if 1 < g < NN:
-            return g
+    # Quick gcd checks
+    g = gcd(a, NN)
+    if 1 < g < NN:
+        return g
+    g = gcd(b, NN)
+    if 1 < g < NN:
+        return g
 
-        # Step 2: compute d = (a^2 - 1)/b^2 mod NN
-        try:
-            b_inv = inverse_mod(b^2, NN)
-        except ZeroDivisionError:
-            return "failure"  # b^2 not invertible, try again
+    # Step 2: compute d = (a^2 - 1)/b^2 mod NN
+    try:
+        b_inv = inverse_mod(b^2, NN)
+    except ZeroDivisionError:
+        return "failure"  # b^2 not invertible, try again
 
-        d = ((a^2-1) * b_inv) % NN
-        if d % 4 == 2 or d % 4 == 3:
-            break
+    d = ((a^2-1) * b_inv) % NN
+
     d = R(d)    
     xN, yN = R(a), R(b)
     # print(f"(x,y) = ({xN},{yN})")
