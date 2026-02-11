@@ -84,7 +84,7 @@ def pell_method(NN, B):
     primes_list = list(prime_range(2, B+1))
     for p in primes_list:
         # Find e such that p^(e-1) < NN <= p^e
-        e = floor(log(B, p))
+        e = floor(log(NN, p))
         E = p**e
 
         # Multiply point by p^e
