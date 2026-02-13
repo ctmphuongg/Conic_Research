@@ -5,8 +5,7 @@ from sage.all import Integers, cached_function
 
 def add_point(P1, P2, d, R):
     """
-    Add two points P1 = (r,s) and P2 = (t,u) on the Pell conic x^2 - d*y^2 = 1 over R = Z/NZ.
-    Returns (x3, y3) modulo R.
+    Add two points on conic
     """
     r, s = P1
     t, u = P2
@@ -14,93 +13,69 @@ def add_point(P1, P2, d, R):
     y3 = r*u + s*t
     return R(x3), R(y3)
 
-
-# @cached_function
-def self_add_two_power(two_power, P, delta, R):
-    """
-    Compute 2^k * P on the Pell conic using repeated doubling.
-    """
-    if two_power == 0:
-        return P  # 2^0 * P = P
-    
-    prev = self_add_two_power(two_power - 1, P, delta, R)
-    return add_point(prev, prev, delta, R)
-
-
 def self_add_optimized(n, P, delta, R):
+    """
+    Optimized addition using 2 power  
+    """
     if n == 0:
         return R(1), R(0)
 
-    result = (R(1), R(0))  # identity
+    result = (R(1), R(0)) 
     first = True
-    for bit in bin(n)[2:]:  # MSB -> LSB
+    for bit in bin(n)[2:]: 
         if not first:
             result = add_point(result, result, delta, R)  # double
+
         if bit == '1':
-            if first:
+            if first: # First bit, result = P
                 result = P
-                first = False
-            else:
+            else: # After that, double prev result, add another P if bit = 1
                 result = add_point(result, P, delta, R)  # add P
-        else:
-            first = False  # after first bit processed
+        
+        first = False  # after first bit processed
     return result
 
-def pell_method(NN, B):
+def pell_method(N, B):
     """
-    Factor NN using a Pell-conic method with bound B.
+    Factor N using a Pell-conic method with bound B.
     Returns a nontrivial factor or 'failure' if none found.
     """
 
-    R = Integers(NN)  # modular ring
-    # Step 1: pick random a, b
-    a = randint(1, NN-1)
-    b = randint(1, NN-1)
+    R = Integers(N)  # modular ring
+    a = randint(1, N-1)
+    b = randint(1, N-1)
 
-    # Quick gcd checks
-    g = gcd(a, NN)
-    if 1 < g < NN:
+    # Quick gcd checks, make sure b invertible
+    g = gcd(a, N)
+    if 1 < g < N:
         return g
-    g = gcd(b, NN)
-    if 1 < g < NN:
+    g = gcd(b, N)
+    if 1 < g < N:
         return g
 
-    # Step 2: compute d = (a^2 - 1)/b^2 mod NN
-    try:
-        b_inv = inverse_mod(b^2, NN)
-    except ZeroDivisionError:
-        return "failure"  # b^2 not invertible, try again
-
-    d = ((a^2-1) * b_inv) % NN
-
-    d = R(d)    
     xN, yN = R(a), R(b)
+    b_inv = inverse_mod(b^2, N) # b must be invertible due to prev check
+    d = ((a^2-1) * b_inv)
+
     # print(f"(x,y) = ({xN},{yN})")
+    for l in primes(2, B+1):
+        # Find e such that l^(e-1) < N <= l^e
+        e = ceil(log(N, l))
+        E = l^e
 
-
-    # Step 3: iterate over small primes <= B
-    primes_list = list(prime_range(2, B+1))
-    for p in primes_list:
-        # Find e such that p^(e-1) < NN <= p^e
-        e = floor(log(NN, p))
-        E = p**e
-
-        # Multiply point by p^e
         xN, yN = self_add_optimized(E, (xN, yN), d, R)
-        # Print points for debugging
         # print(f"(x,y) = ({xN},{yN})")
 
-        # Check gcd for factor
-        g = gcd([xN-1, yN, NN])
-        if g != 1 and g != NN:
+        g = gcd([xN-1, yN, N])
+        if g != 1 and g != N:
             return g
 
     return "failure"
 
 if __name__ == "__main__":
-    NN = 583421287793
+    N = 583421287793
     B = 12762
-    factor = pell_method(NN, B)
+    factor = pell_method(N, B)
     print("Factor found:", factor)
     # factor2 = pell_method(357, 6)
     # print("Factor found:", factor2)

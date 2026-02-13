@@ -22,14 +22,12 @@ def lenstra_method(N, B):
 
     # print(f"(x,y) = ({P[0]}, {P[1]})")
 
-    for p in primes(2, B + 1):
-        e = 1
-        while p^e < N:
-            e += 1
-        k = p^e
+    for l in primes(2, B + 1):
+        e = ceil(log(N, l))
+        E = l^e
 
         try:
-            P = k * P
+            P = E * P
             # print(f"(x,y) = ({P[0]}, {P[1]})")
 
         except ZeroDivisionError as err:

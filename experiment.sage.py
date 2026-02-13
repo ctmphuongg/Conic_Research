@@ -24,14 +24,7 @@ from math import log, sqrt, exp
 
 def generate_semiprime(bit_length=_sage_const_20 ):
     """
-    Generate a semiprime N = p * q where p and q are distinct primes.
-    
-    Args:
-        bit_length: approximate bit length for each prime factor
-    
-    Returns:
-        N: the semiprime product
-        p, q: the prime factors
+    Generate N = p * q
     """
     p = random_prime(_sage_const_2 **bit_length, lbound=_sage_const_2 **(bit_length-_sage_const_1 ))
     q = random_prime(_sage_const_2 **bit_length, lbound=_sage_const_2 **(bit_length-_sage_const_1 ))
@@ -43,12 +36,6 @@ def generate_semiprime(bit_length=_sage_const_20 ):
 def compute_ideal_B(N):
     """
     Compute the ideal smoothness bound B = e^{sqrt(ln(N) * ln(ln(N)))}
-    
-    Args:
-        N: the number to be factored
-    
-    Returns:
-        B: the smoothness bound (as an integer)
     """
     ln_N = log(float(N))
     ln_ln_N = log(ln_N)
@@ -57,15 +44,10 @@ def compute_ideal_B(N):
 
 def run_experiment(num_tests=_sage_const_10 , bit_length=_sage_const_20 , max_trials=_sage_const_50 ):
     """
-    Run the factorization experiment comparing all three methods.
-    
-    Args:
-        num_tests: number of different semiprimes to test
-        bit_length: bit length for generating prime factors
-        max_trials: maximum number of trials before giving up
-    
-    Returns:
-        results: dictionary with statistics for each method
+    Main experiment
+    - num_tests: number of different N to test
+    - bit_length: bit length for generating prime factors
+    - max_trials: maximum number of trials before giving up
     """
     # Dictionary to store trial counts for each method
     trial_counts = {
@@ -88,9 +70,6 @@ def run_experiment(num_tests=_sage_const_10 , bit_length=_sage_const_20 , max_tr
         'williams': []
     }
     
-    print("=" * _sage_const_70 )
-    print("FACTORIZATION METHOD COMPARISON EXPERIMENT")
-    print("=" * _sage_const_70 )
     print(f"Number of tests: {num_tests}")
     print(f"Prime bit length: {bit_length}")
     print(f"Max trials per method: {max_trials}")
@@ -98,55 +77,55 @@ def run_experiment(num_tests=_sage_const_10 , bit_length=_sage_const_20 , max_tr
     print()
     
     for test_num in range(_sage_const_1 , num_tests + _sage_const_1 ):
-        # Generate semiprime N = p * q
+        # Generate N
         N, p, q = generate_semiprime(bit_length)
         B = compute_ideal_B(N)
         
         print(f"Test {test_num}/{num_tests}:")
-        print(f"  N = {N} = {p} × {q}")
-        print(f"  Ideal B = {B}")
+        print(f"N = {N} = {p} * {q}")
+        print(f"B = {B}")
         print()
         
         # Test Pell's method
-        print("  Testing Pell's method...")
+        print("  Testing Pell's method")
         for trial in range(_sage_const_1 , max_trials + _sage_const_1 ):
             result = pell_method(N, B)
             if result != "failure":
                 trial_counts['pell'].append(trial)
                 result_log['pell'].append(result)
                 success_counts['pell'] += _sage_const_1 
-                print(f"   Success on trial {trial}, found factor: {result}")
+                print(f"Success on trial {trial}, found factor: {result}")
                 break
         else:
             result_log['pell'].append(-_sage_const_1 )
-            print(f"    Failed after {max_trials} trials")
+            print(f"Failed after {max_trials} trials")
         
         # Test Pollard's method
-        print("  Testing Pollard's method...")
+        print("  Testing Pollard's method")
         for trial in range(_sage_const_1 , max_trials + _sage_const_1 ):
             result = pollard_method(N, B)
             if result != "failure":
                 trial_counts['pollard'].append(trial)
                 result_log['pollard'].append(result)
                 success_counts['pollard'] += _sage_const_1 
-                print(f"    Success on trial {trial}, found factor: {result}")
+                print(f"Success on trial {trial}, found factor: {result}")
                 break
         else:
             result_log['pollard'].append(-_sage_const_1 )
-            print(f"    Failed after {max_trials} trials")
+            print(f"Failed after {max_trials} trials")
         
         # Test Williams' method
-        print("  Testing Williams' method...")
+        print("  Testing Williams' method")
         for trial in range(_sage_const_1 , max_trials + _sage_const_1 ):
             result = williams_method(N, B)
             if result != "failure":
                 trial_counts['williams'].append(trial)
                 result_log['williams'].append(result)
                 success_counts['williams'] += _sage_const_1 
-                print(f"    Success on trial {trial}, found factor: {result}")
+                print(f"Success on trial {trial}, found factor: {result}")
                 break
         else:
-            print(f"    Failed after {max_trials} trials")
+            print(f"Failed after {max_trials} trials")
             result_log['williams'].append(-_sage_const_1 )
         
         print()
@@ -162,23 +141,8 @@ def run_experiment(num_tests=_sage_const_10 , bit_length=_sage_const_20 , max_tr
             trials = trial_counts[method]
             print("Number of trials", trials)
             print("Results", result_log[method])
-        else:
-            print("  No successful factorizations")
-    
-    print("\n" + "=" * _sage_const_70 )
-    
-    return {
-        'trial_counts': trial_counts,
-        'success_counts': success_counts
-    }
 
-# Run the experiment
 if __name__ == "__main__":
-    # You can adjust these parameters:
-    # - num_tests: how many different N values to test
-    # - bit_length: size of prime factors (20 bits = ~6 digit primes)
-    # - max_trials: maximum attempts before giving up
-    
     results = run_experiment(num_tests=_sage_const_100 , bit_length=_sage_const_20 , max_trials=_sage_const_50 )
 
 

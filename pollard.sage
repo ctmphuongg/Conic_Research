@@ -8,9 +8,10 @@ def pollard_method(N, B):
         return d
 
     b = a
-    for l in primes(1, B + 1):
+    for l in primes(2, B + 1):
         e = ceil(log(N, l))
-        b = power_mod(b, l^e, N)
+        E = l^e
+        b = power_mod(b, E, N)
         d = gcd(b - 1, N)
         if d != 1:
             if d < N:

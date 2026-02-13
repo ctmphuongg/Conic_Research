@@ -33,7 +33,7 @@
 # G = R.automorphisms() # find the automorphisms of this field (one will be the identity and other other will swap sqrtd with -sqrtd)
 # t = a+b*R.0 
 # tbar = G[1](t) #find \bar{t}, G[1] is the automorphism that swaps sqrtd with -sqrtd
-# x = tbar/t # you can check at this point that x*G[1](x)=1
+# x = tbar/t # can check at this point that x*G[1](x)=1
 
 # ZZN = IntegerModRing(NN)  # make the integers mod N
 # z = polygen(ZZN, 'z') # make the polynomial ring ZZ/(N)[z]
@@ -62,47 +62,38 @@ xN = 564*a + 3009
 from sage.all_cmdline import *   # import sage library
 
 _sage_const_1 = Integer(1); _sage_const_2 = Integer(2); _sage_const_0 = Integer(0); _sage_const_91 = Integer(91); _sage_const_3 = Integer(3)
-# Williams p+1 method using your Sage syntax
-def williams_method(NN, B):
+def williams_method(N, B):
 
-        # Step 1: pick random a, b
-        a = randint(_sage_const_1 , NN-_sage_const_1 )
-        b = randint(_sage_const_1 , NN-_sage_const_1 )
+        # pick random a, b
+        a = randint(_sage_const_1 , N-_sage_const_1 )
+        b = randint(_sage_const_1 , N-_sage_const_1 )
         
-        # Step 2: pick random d not a square mod NN
+        # pick random d not a square mod N
         while True:
-            d = randint(_sage_const_2 , NN-_sage_const_1 )
-            if not is_square(Mod(d, NN)):
+            d = randint(_sage_const_2 , N-_sage_const_1 )
+            if not is_square(Mod(d, N)):
                 break
         
-        # Step 3: define quadratic field Q(sqrt(d))
+        # define quadratic field Q(sqrt(d))
         R = QuadraticField(d, 'sqrtd')
         G = R.automorphisms()
         t = a + b*R.gen(0)
         tbar = G[_sage_const_1 ](t)   # automorphism that swaps sqrt(d) -> -sqrt(d)
         
-        # Step 4: x = tbar / t
+        # x = tbar / t
         x = tbar / t
-        # check: x * G[1](x) should be 1
         assert x * G[_sage_const_1 ](x) == _sage_const_1 
         # print("d = ", d)
 
-        # Step 5: define integers mod N
-        ZZN = IntegerModRing(NN)
+        # define integers mod N
+        ZZN = IntegerModRing(N)
         z = polygen(ZZN, 'z')
         xN = (ZZN.extension(z**_sage_const_2  - d, 'a')(x))
         # print(f"xN = {xN}")
 
-        # iterate over primes <= B
-        primes_list = [p for p in prime_range(_sage_const_2 , B+_sage_const_1 )]
-        for p in primes_list:
-            # find e such that p^(e-1) < NN <= p^e
-            e = _sage_const_1 
-            while p**e < NN:
-                e += _sage_const_1 
-            E = p**e
-
-            # extend ZZN by adding root of z^2 - d and coerce x
+        for l in primes(_sage_const_2 , B + _sage_const_1 ):
+            e = ceil(log(N, l))
+            E = l**e
             xN = xN**E
 
             # print t, x, and xN for debugging
@@ -117,8 +108,8 @@ def williams_method(NN, B):
             # print(f"b mod N = {u} + {v}*sqrt({d})")
 
             # check gcd for factor
-            g = gcd([u-_sage_const_1 , v, NN])
-            if g != _sage_const_1  and g != NN:
+            g = gcd([u-_sage_const_1 , v, N])
+            if g != _sage_const_1  and g != N:
                 # print(f"Nontrivial factor found: {g}")
                 return g
 
@@ -126,8 +117,7 @@ def williams_method(NN, B):
         return "failure"
 
 if __name__ == "__main__":
-    # Example usage
-    NN = _sage_const_91   # number to factor
-    B = _sage_const_3      # smoothness bound
-    print(williams_method(NN, B))
+    N = _sage_const_91   
+    B = _sage_const_3     
+    print(williams_method(N, B))
 

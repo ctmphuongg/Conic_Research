@@ -33,7 +33,7 @@
 # G = R.automorphisms() # find the automorphisms of this field (one will be the identity and other other will swap sqrtd with -sqrtd)
 # t = a+b*R.0 
 # tbar = G[1](t) #find \bar{t}, G[1] is the automorphism that swaps sqrtd with -sqrtd
-# x = tbar/t # you can check at this point that x*G[1](x)=1
+# x = tbar/t # can check at this point that x*G[1](x)=1
 
 # ZZN = IntegerModRing(NN)  # make the integers mod N
 # z = polygen(ZZN, 'z') # make the polynomial ring ZZ/(N)[z]
@@ -56,49 +56,39 @@ ZZN.extension(z^2-d, 'a')(x) = 2933*a + 1390
 xN = 564*a + 3009
 47
 '''
+def williams_method(N, B):
 
-# Williams p+1 method using your Sage syntax
-def williams_method(NN, B):
-
-        # Step 1: pick random a, b
-        a = randint(1, NN-1)
-        b = randint(1, NN-1)
+        # pick random a, b
+        a = randint(1, N-1)
+        b = randint(1, N-1)
         
-        # Step 2: pick random d not a square mod NN
+        # pick random d not a square mod N
         while True:
-            d = randint(2, NN-1)
-            if not is_square(Mod(d, NN)):
+            d = randint(2, N-1)
+            if not is_square(Mod(d, N)):
                 break
         
-        # Step 3: define quadratic field Q(sqrt(d))
+        # define quadratic field Q(sqrt(d))
         R = QuadraticField(d, 'sqrtd')
         G = R.automorphisms()
         t = a + b*R.0
         tbar = G[1](t)   # automorphism that swaps sqrt(d) -> -sqrt(d)
         
-        # Step 4: x = tbar / t
+        # x = tbar / t
         x = tbar / t
-        # check: x * G[1](x) should be 1
         assert x * G[1](x) == 1
         # print("d = ", d)
 
-        # Step 5: define integers mod N
-        ZZN = IntegerModRing(NN)
+        # define integers mod N
+        ZZN = IntegerModRing(N)
         z = polygen(ZZN, 'z')
         xN = (ZZN.extension(z^2 - d, 'a')(x))
         # print(f"xN = {xN}")
 
-        # iterate over primes <= B
-        primes_list = [p for p in prime_range(2, B+1)]
-        for p in primes_list:
-            # find e such that p^(e-1) < NN <= p^e
-            e = 1
-            while p**e < NN:
-                e += 1
-            E = p**e
-
-            # extend ZZN by adding root of z^2 - d and coerce x
-            xN = xN**E
+        for l in primes(2, B + 1):
+            e = ceil(log(N, l))
+            E = l^e
+            xN = xN^E
 
             # print t, x, and xN for debugging
             # print(f"t = {t}")
@@ -112,8 +102,8 @@ def williams_method(NN, B):
             # print(f"b mod N = {u} + {v}*sqrt({d})")
 
             # check gcd for factor
-            g = gcd([u-1, v, NN])
-            if g != 1 and g != NN:
+            g = gcd([u-1, v, N])
+            if g != 1 and g != N:
                 # print(f"Nontrivial factor found: {g}")
                 return g
 
@@ -121,7 +111,6 @@ def williams_method(NN, B):
         return "failure"
 
 if __name__ == "__main__":
-    # Example usage
-    NN = 91  # number to factor
-    B = 3     # smoothness bound
-    print(williams_method(NN, B))
+    N = 91  
+    B = 3    
+    print(williams_method(N, B))
