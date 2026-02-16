@@ -64,6 +64,9 @@ def run_experiment(num_tests=10, bit_length=20, max_trials=50):
         'pollard': [],
         'williams': []
     }
+
+    N_values = []
+    B_values = []
     
     print(f"Number of tests: {num_tests}")
     print(f"Prime bit length: {bit_length}")
@@ -76,11 +79,12 @@ def run_experiment(num_tests=10, bit_length=20, max_trials=50):
         N, p, q = generate_semiprime(bit_length)
         B = compute_ideal_B(N)
         
-        print(f"Test {test_num}/{num_tests}:")
+        print(f"Test {test_num}/{num_tests} started", flush=True)
         print(f"N = {N} = {p} * {q}")
         print(f"B = {B}")
         print()
-        
+
+        N_values.append(N)
         # Test Pell's method
         print("  Testing Pell's method")
         for trial in range(1, max_trials + 1):
@@ -93,6 +97,7 @@ def run_experiment(num_tests=10, bit_length=20, max_trials=50):
                 break
         else:
             result_log['pell'].append(-1)
+            trial_counts['pell'].append(-1)
             print(f"Failed after {max_trials} trials")
         
         # Test Pollard's method
@@ -107,6 +112,7 @@ def run_experiment(num_tests=10, bit_length=20, max_trials=50):
                 break
         else:
             result_log['pollard'].append(-1)
+            trial_counts['pollard'].append(-1)
             print(f"Failed after {max_trials} trials")
         
         # Test Williams' method
@@ -122,8 +128,7 @@ def run_experiment(num_tests=10, bit_length=20, max_trials=50):
         else:
             print(f"Failed after {max_trials} trials")
             result_log['williams'].append(-1)
-        
-        print()
+            trial_counts['williams'].append(-1)
     
     # Print summary statistics
     print("=" * 70)
@@ -136,9 +141,10 @@ def run_experiment(num_tests=10, bit_length=20, max_trials=50):
             trials = trial_counts[method]
             print("Number of trials", trials)
             print("Results", result_log[method])
+            print("N values", N_values)
 
 if __name__ == "__main__":
-    results = run_experiment(num_tests=100, bit_length=20, max_trials=50)
+    results = run_experiment(num_tests=1000, bit_length=30, max_trials=50)
 
 
 

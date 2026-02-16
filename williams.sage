@@ -58,57 +58,56 @@ xN = 564*a + 3009
 '''
 def williams_method(N, B):
 
-        # pick random a, b
-        a = randint(1, N-1)
-        b = randint(1, N-1)
-        
-        # pick random d not a square mod N
-        while True:
-            d = randint(2, N-1)
-            if not is_square(Mod(d, N)):
-                break
-        
-        # define quadratic field Q(sqrt(d))
-        R = QuadraticField(d, 'sqrtd')
-        G = R.automorphisms()
-        t = a + b*R.0
-        tbar = G[1](t)   # automorphism that swaps sqrt(d) -> -sqrt(d)
-        
-        # x = tbar / t
-        x = tbar / t
-        assert x * G[1](x) == 1
-        # print("d = ", d)
+    # pick random a, b
+    a = randint(1, N-1)
+    b = randint(1, N-1)
+    
+    # pick random d not a square mod N
+    while True:
+        d = randint(2, N-1)
+        if not is_square(Mod(d, N)):
+            break
+    
+    # define quadratic field Q(sqrt(d))
+    R = QuadraticField(d, 'sqrtd')
+    G = R.automorphisms()
+    t = a + b*R.0
+    tbar = G[1](t)   # automorphism that swaps sqrt(d) -> -sqrt(d)
+    
+    # x = tbar / t
+    x = tbar / t
+    assert x * G[1](x) == 1
+    # print("d = ", d)
 
-        # define integers mod N
-        ZZN = IntegerModRing(N)
-        z = polygen(ZZN, 'z')
-        xN = (ZZN.extension(z^2 - d, 'a')(x))
+    # define integers mod N
+    ZZN = IntegerModRing(N)
+    z = polygen(ZZN, 'z')
+    xN = (ZZN.extension(z^2 - d, 'a')(x))
+    # print(f"xN = {xN}")
+
+    for l in primes(2, B + 1):
+        e = ceil(log(N, l))
+        E = l^e
+        xN = xN^E
+
+        # print(f"t = {t}")
+        # print(f"x = {x}")
         # print(f"xN = {xN}")
+        # print(f"l^e={p}^{e}")
 
-        for l in primes(2, B + 1):
-            e = ceil(log(N, l))
-            E = l^e
-            xN = xN^E
+        # extract coefficients
+        u = xN.list()[0]  # rational part
+        v = xN.list()[1]  # sqrt(d) part
+        # print(f"b mod N = {u} + {v}*sqrt({d})")
 
-            # print t, x, and xN for debugging
-            # print(f"t = {t}")
-            # print(f"x = {x}")
-            # print(f"xN = {xN}")
-            # print(f"l^e={p}^{e}")
+        # check gcd for factor
+        g = gcd([u-1, v, N])
+        if g != 1 and g != N:
+            # print(f"Nontrivial factor found: {g}")
+            return g
 
-            # extract coefficients
-            u = xN.list()[0]  # rational part
-            v = xN.list()[1]  # sqrt(d) part
-            # print(f"b mod N = {u} + {v}*sqrt({d})")
-
-            # check gcd for factor
-            g = gcd([u-1, v, N])
-            if g != 1 and g != N:
-                # print(f"Nontrivial factor found: {g}")
-                return g
-
-        # if no factor found
-        return "failure"
+    # if no factor found
+    return "failure"
 
 if __name__ == "__main__":
     N = 91  
