@@ -1,13 +1,3 @@
-"""
-Experiment to evaluate the number of trials needed for three factorization methods:
-- Pell's method
-- Pollard's method  
-- Williams' method
-
-This script compares how many trials each method needs to successfully factor N = p*q
-with an ideal choice of smoothness bound B = e^{sqrt(ln(N) * ln(ln(N)))}
-"""
-
 # Import the factorization methods from each file
 load("pellconic.sage")
 load("pollard.sage")
